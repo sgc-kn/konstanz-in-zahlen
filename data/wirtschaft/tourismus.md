@@ -1,0 +1,46 @@
+---
+title: Tourismus
+teaser: Text
+source: Statistisches Landesamt Baden-Württemberg (Tourismusstatistik)
+columns:
+- name: jahr
+  type: int
+  description: Jahr der Erhebung
+  short: Jahr
+- name: ankuenfte
+  type: int
+  description: Ankünfte insgesamt
+  short: Ankünfte insgesamt
+- name: ankuenfte_ausland
+  type: int
+  description: 'Ankünfte: darunter ausländische Gäste'
+  short: darunter ausländische Gäste
+- name: uebernachtungen
+  type: int
+  description: Übernachtungen insgesamt
+  short: Übernachtungen insgesamt
+- name: uebernachtungen_ausland
+  type: int
+  description: 'Übernachtungen: darunter ausländische Gäste'
+  short: darunter ausländische Gäste
+- name: deutschland
+  type: int
+  description: 'Übernachtungen nach Herkunftsländern: Deutschland'
+  short: Deutschland
+- name: schweiz
+  type: int
+  description: 'Übernachtungen nach Herkunftsländern: Schweiz'
+  short: Schweiz
+- name: frankreich
+  type: int
+  description: 'Übernachtungen nach Herkunftsländern: Frankreich'
+  short: Frankreich
+- name: oesterreich
+  type: int
+  description: 'Übernachtungen nach Herkunftsländern: Österreich'
+  short: Österreich
+- name: sonstige
+  type: int
+  description: 'Übernachtungen nach Herkunftsländern: sonstige Länder'
+  short: sonstige Länder
+---
