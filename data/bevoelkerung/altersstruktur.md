@@ -1,5 +1,5 @@
 ---
-title: Altersstruktur der Wohnbevölkerung
+title: Altersstruktur der Wohnbevölkerung 2024
 source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortschreibung)
 columns:
 - name: alter

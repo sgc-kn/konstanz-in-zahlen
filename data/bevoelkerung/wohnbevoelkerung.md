@@ -9,7 +9,6 @@ columns:
 - name: gesamt
   type: int
   description: Insgesamt
-  short: Insgesamt
 - name: w
   type: int
   description: davon Frauen

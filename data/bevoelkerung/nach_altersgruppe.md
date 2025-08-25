@@ -31,6 +31,4 @@ columns:
   description: Anzahl Einwohner, 60 Jahre und älter
   short: 60 Jahre und älter
 ---
-Anmerkungen:
-
 Wohnbevölkerung (Einwohner mit Hauptwohnsitz) in Konstanz nach Altersgruppen.

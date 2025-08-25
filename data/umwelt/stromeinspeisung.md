@@ -7,6 +7,11 @@ columns:
   type: int
   description: Jahr der Erhebung
   short: Jahr
+- name: insgesamt
+  type: float
+  description: Stadtwerke Insgesamt
+  unit: Mio. kWh
+  short: Stadtwerke Insgesamt
 - name: deponie
   type: float
   description: Deponie (beendet 31.12.2020)
