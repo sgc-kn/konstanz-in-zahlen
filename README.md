@@ -1,6 +1,9 @@
 # Konstanz in Zahlen
 
-We here maintain yearly statistics about the City of Constance.
+This repository holds yearly statistics about the City of Constance. These
+statistics are maintained and published as booklet since 20 years.
+Recent and historic PDF publications are available on the city website:
+www.konstanz.de/leben+in+konstanz/statistik/
 
 We keep the data in CSV files, one file per table. Each table has its
 schema defined in a Markdown file with Yaml Header. We automatically
