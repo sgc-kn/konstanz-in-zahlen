@@ -1,0 +1,83 @@
+publiccodeYmlVersion: '0.2'
+name: Public Dashboards
+url: 'https://github.com/sgc-kn/konstanz-in-zahlen'
+logo: logo.svg
+
+softwareType: library
+platforms:
+  - linux
+  - mac
+  - windows
+categories:
+  - data-collection
+  - digital-asset-management
+
+releaseDate: '2025-09-01'
+softwareVersion: 'rolling'
+developmentStatus: beta
+
+usedBy:
+  - Stadt Konstanz
+
+intendedAudience:
+  scope:
+    - local-authorities
+
+maintenance:
+  type: internal
+  contacts:
+    - name: Patrik Keller (Code)
+      email: patrik.keller@konstanz.de
+    - name: Andreas Schneck (Data)
+      email: andreas.schneck@konstanz.de
+    - name: Wilfried Baumgartner (Project)
+      email: wilfried.baumgartner@konstanz.de
+    - name: Smart Green City Konstanz (Program)
+      email: smartgreencity@konstanz.de
+
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Stadt Konstanz
+  repoOwner: Stadt Konstanz
+
+localisation:
+  localisationReady: false
+
+description:
+  de:
+    shortDescription: >
+      Jährliche Zahlen und Fakten zur Stadt Konstanz — in maschinenlesbarer Form
+
+    longDescription: >
+      Dieses Repository enthält jährliche Statistiken über die Stadt Konstanz.
+      Diese Statistiken werden seit 20 Jahren als Heft gepflegt und
+      veröffentlicht. Nun werden die Daten auch in maschinenlesbarer Form
+      bereit gestellt.
+
+
+      Dieses Projekt kann als Vorlage für ähnliche Datenprojekte dienen.
+
+    features:
+      - Maschinenlesbare CSV-Daten
+      - Strikte Schemavalidierung mit Python/Pydantic
+      - Versionierung der Daten mit Git
+      - Automatisierter Excel Export und Import
+      - Wiederverwendbare Python-Bibliothek
+
+  en:
+    shortDescription: >
+      Yearly facts and figures about the City of Constance — in machine-readable form
+
+    longDescription: >
+      This repository contains yearly statistics about the City of Constance.
+      These statistics have been maintained and published as a booklet for 20 years.
+      Now, the data is also provided in a machine-readable format.
+
+      This project can serve as a template for similar data projects.
+
+    features:
+      - Machine-readable CSV data
+      - Strict schema validation with Python/Pydantic
+      - Versioning of data via Git
+      - Automated Excel export and import
+      - Reusable Python library
