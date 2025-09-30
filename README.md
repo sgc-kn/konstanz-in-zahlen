@@ -1,4 +1,4 @@
-# KIZ - Konstanz in Zahlen
+# Konstanz in Zahlen
 
 We here maintain yearly statistics about the City of Constance.
 
@@ -17,7 +17,9 @@ holding multiple tables (`data/<dataset>/<table>.csv)`). The schema is
 stored right next to the respective table (`data/<dataset>/<table>.md`).
 The Pydantic models are written to (`data/<dataset>/<table>.py`).
 
-To edit the data, start a Github Codespace. All dependencies will be installed automatically. (Please create an issue if not!) Propose your changes as Github Pull Request.
+To edit the data, start a Github Codespace. All dependencies will be
+installed automatically. (Please create an issue if not!) Propose your
+changes as Github Pull Request.
 
 You can export and import data to and from Excel using `pytab export
 /data/<dataset>` and `pytab import data/<dataset>`. The default location
