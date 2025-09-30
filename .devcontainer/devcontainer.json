@@ -1,0 +1,28 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "charliermarsh.ruff",
+        "janisdd.vscode-edit-csv",
+        "mechatroner.rainbow-csv",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "nefrob.vscode-just-syntax",
+        "quarto.quarto"
+      ],
+      "settings": {
+        "extensions.ignoreRecommendations": true,
+        "editor.formatOnSave": true,
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/",
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff"
+        }
+      }
+    }
+  },
+  "postCreateCommand": "bash /postCreate.sh",
+  "postAttachCommand": "uv sync"
+}
