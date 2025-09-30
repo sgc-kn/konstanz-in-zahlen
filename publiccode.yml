@@ -1,5 +1,5 @@
 publiccodeYmlVersion: '0.2'
-name: Public Dashboards
+name: Konstanz in Zahlen
 url: 'https://github.com/sgc-kn/konstanz-in-zahlen'
 logo: logo.svg
 
@@ -72,6 +72,7 @@ description:
       This repository contains yearly statistics about the City of Constance.
       These statistics have been maintained and published as a booklet for 20 years.
       Now, the data is also provided in a machine-readable format.
+
 
       This project can serve as a template for similar data projects.
 
