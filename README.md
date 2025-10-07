@@ -53,7 +53,7 @@ this kind of data management to other datasets.
 
 ## License
 
-We release our code under the EUPL-1.2 License. See the LICENSE file
+We release our code under the EUPL-1.2 license. See the LICENSE file
 for details. Contributions to this project are licensed under the same
 terms.
 
