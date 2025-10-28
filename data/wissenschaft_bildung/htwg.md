@@ -9,11 +9,9 @@ columns:
 - name: studierende
   type: int
   description: Studierende
-  short: Studierende
 - name: nichtdeutsch
   type: Optional[int]
   description: darunter nichtdeutsche Studierende (ohne Studienkolleg)
-  short: darunter nichtdeutsche Studierende (ohne Studienkolleg)
 ---
 Anmerkungen: Die HTWG - Hochschule Konstanz Technik, Wirtschaft und Gestaltung - ist eine moderne Hochschule mit einem anwendungsorientierten Profil mit einem anwendungsorientierten Profil. Vorläufer der Hochschule ist das 1906 gegründete „Technikum Konstanz“. 
 

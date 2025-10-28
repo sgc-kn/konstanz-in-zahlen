@@ -4,12 +4,12 @@ source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortsch
 columns:
 - name: jahr
   type: int
-  description: Jahr 
+  description: Jahr
 - name: geburten
   type: Optional[int]
-  description: Anzahl der Geburten 
+  description: Anzahl der Geburten
 - name: sterbefaelle
   type: Optional[int]
-  description: Anzahl der Sterbefälle 
+  description: Anzahl der Sterbefälle
 ---
 Anmerkungen: natürliche Einwohnerbewegung mit Geburten (Lebendgeburten) und Sterbefällen der Wohnbevölkerung (Einwohner mit Hauptwohnsitz) während des jeweiligen Kalenderjahres.

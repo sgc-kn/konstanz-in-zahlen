@@ -11,42 +11,34 @@ columns:
   type: int
   description: Restmüll
   unit: kg pro Einwohner
-  short: Restmüll
 - name: bio
   type: int
   description: Biomüll
   unit: kg pro Einwohner
-  short: Biomüll
 - name: glas
   type: Optional[int]
   description: Glas
   unit: kg pro Einwohner
-  short: Glas
 - name: papier
   type: int
   description: Papier
   unit: kg pro Einwohner
-  short: Papier
 - name: gruen
   type: int
   description: Grünabfall
   unit: kg pro Einwohner
-  short: Grünabfall
 - name: gelb
   type: int
   description: Gelber Sack
   unit: kg pro Einwohner
-  short: Gelber Sack
 - name: sperr
   type: Optional[int]
   description: Sperrmüll
   unit: kg pro Einwohner
-  short: Sperrmüll
 - name: sonstige
   type: Optional[int]
   description: sonstige Wertstoffe (Holz, Metall, E-Schrott)
   unit: kg pro Einwohner
-  short: sonstige Wertstoffe (Holz, Metall, E-Schrott)
 ---
 Anmerkungen:
 
@@ -59,4 +51,3 @@ Grünabfall: Grünabfälle aus dem Garten wie geschnittene Äste und Zweige, Str
 Gelber Sack: Verkaufsverpackungen aus Kunststoff, Aluminium, Weißblech und Verbundmaterialien.
 Sperrmüll: sperrige Einrichtungs- und Gebrauchsgegenstände, die aufgrund ihrer Größe nicht in die Restmüllbehälter passen und auf den Wertstoffhöfen entsorgt werden.
 Sonstige Wertstoffe: Holz, Metalle, Elektroaltgeräte, mineralische Stoffe, Hartkunststoffe sowie Flachglas, die auf den Wertstoffhöfen getrennt gesammelt werden.
-

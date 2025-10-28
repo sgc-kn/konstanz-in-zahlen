@@ -5,11 +5,9 @@ columns:
 - name: jahr
   type: int
   description: Jahr
-  short: Jahr
 - name: einrichtungen
   type: Optional[float]
   description: Ausgaben städt. Kindertageseinrichtungen
-  short: Ausgaben städt. Kindertageseinrichtungen
 - name: personal
   type: Optional[float]
   description: Personalkosten- und Mietzuschüsse an nicht-städtische Einrichtungen

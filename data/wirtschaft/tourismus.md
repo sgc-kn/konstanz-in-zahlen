@@ -10,7 +10,6 @@ columns:
 - name: ankuenfte
   type: int
   description: Ankünfte insgesamt
-  short: Ankünfte insgesamt
 - name: ankuenfte_ausland
   type: int
   description: 'Ankünfte: darunter ausländische Gäste'
@@ -18,7 +17,6 @@ columns:
 - name: uebernachtungen
   type: int
   description: Übernachtungen insgesamt
-  short: Übernachtungen insgesamt
 - name: uebernachtungen_ausland
   type: int
   description: 'Übernachtungen: darunter ausländische Gäste'

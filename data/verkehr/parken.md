@@ -9,7 +9,6 @@ columns:
 - name: parkhaus
   type: int
   description: Parkhäuser (im Parkleitsystem)
-  short: Parkhäuser (im Parkleitsystem)
 - name: parkhaus_platz
   type: int
   description: 'Parkhäuser (im Parkleitsystem): Stellplätze'
@@ -17,7 +16,6 @@ columns:
 - name: pnr
   type: int
   description: Park-and-Ride-Plätze
-  short: Park-and-Ride-Plätze
 - name: pnr_platz
   type: int
   description: 'Park-and-Ride-Plätze: Stellplätze'

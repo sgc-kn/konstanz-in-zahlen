@@ -5,11 +5,9 @@ columns:
 - name: jahr
   type: int
   description: Jahr
-  short: Jahr
 - name: vertrag
   type: int
   description: Zugelassene Vertragsärzte (Kassenärzte) und Vertragspsychotherapeuten
-  short: Zugelassene Vertragsärzte (Kassenärzte) und Vertragspsychotherapeuten
 - name: haus
   type: int
   description: davon Hausärzte (Allgemein-Ärzte u. hausärztlich tätige Internisten)
@@ -21,9 +19,7 @@ columns:
 - name: zahn
   type: int
   description: Zugelassene Zahnärzte
-  short: Zugelassene Zahnärzte
 - name: apotheken
   type: int
   description: Apotheken
-  short: Apotheken
 ---

@@ -17,11 +17,9 @@ columns:
 - name: personal_v
   type: int
   description: Verwaltungspersonal in Stellen
-  short: Verwaltungspersonal in Stellen
 - name: azubi
   type: int
   description: Auszubildende
-  short: Auszubildende
 - name: budget
   type: float
   description: Jahresbudget

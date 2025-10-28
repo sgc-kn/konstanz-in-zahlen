@@ -4,8 +4,7 @@ source: Stadt Konstanz, Kämmerei
 columns:
 - name: jahr
   type: int
-  description: Jahr 
-  short: Jahr
+  description: Jahr
 - name: haushalt_mio
   type: float
   description: Ergebnishaushalt in Mio. €
@@ -28,19 +27,17 @@ columns:
   short: 'Investitionen: pro SchülerIn'
 - name: mio_insgesamt
   type: float
-  computed: self.haushalt_mio + self.investitionen_mio
-  unit: Mio. €
   description: 'insgesamt: in Mio €'
+  unit: Mio. €
+  computed: self.haushalt_mio + self.investitionen_mio
 - name: proschueler_insgesamt
   type: int
-  computed: self.haushalt_proschueler + self.investitionen_proschueler
-  unit: €
   description: 'insgesamt: pro SchülerIn'
+  unit: €
+  computed: self.haushalt_proschueler + self.investitionen_proschueler
 - name: bedarf
   type: Optional[int]
   description: Nettoressourcenbedarf Schulen (pro SchülerIn) in €
   unit: €
-  short: Nettoressourcenbedarf Schulen (pro SchülerIn) in €
 ---
 Anmerkungen: Die Stadt Konstanz als Schulträger ist für Errichtung, Unterhaltung und Verwaltung der allgemeinbildenden städtischen Schule verantwortlich und trägt in der Regel die Sachkosten. Dies umfasst die Kosten u.a. für Gebäude, technische Ausstattung u.v.m. sowie die Personalkosten für Sekretariat und Hausmeister (während die Personalkosten für Lehrer an öffentlichen Schulen vom Land übernommen werden). Der Ergebnishaushalt umfasst die Aufwendungen und Erträge im Haushaltsjahr.
-

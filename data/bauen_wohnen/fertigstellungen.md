@@ -6,7 +6,6 @@ columns:
 - name: jahr
   type: int
   description: Jahr
-  short: Jahr
 - name: wohnungen
   type: int
   description: 'Wohnungsbau: Wohnungen'
@@ -30,5 +29,4 @@ Anmerkung: Baufertigstellung neuer Gebäude: Als »fertig gestellt« ist ein Bau
 Wohngebäude sind Gebäude, die mindestens zur Hälfte (gemessen an der Gesamtnutzungsfläche) Wohnzwecken dienen.
 Die Wohnfläche umfasst die Grundfläche der ausschließlich zur Wohnung gehörenden Räumen. 
 Nichtwohngebäude sind Gebäude, die überwiegend für Nichtwohnzwecke (gemessen an der Gesamtnutzfläche) bestimmt sind.
-Zur Nutzfläche gehören die Hauptnutzflächen (Arbeiten, Produzieren, Lagern, Verkaufen usw.) und die Nebennutzflächen (Sanitärräume, Abstellräume, Keller, Garagen usw.). Nicht zur Nutzfläche gehören die Funktionsflächen (betriebstechnische Anlagen) und die Verkehrsflächen (Flure, Treppen, Aufzugschächte). 
-
+Zur Nutzfläche gehören die Hauptnutzflächen (Arbeiten, Produzieren, Lagern, Verkaufen usw.) und die Nebennutzflächen (Sanitärräume, Abstellräume, Keller, Garagen usw.). Nicht zur Nutzfläche gehören die Funktionsflächen (betriebstechnische Anlagen) und die Verkehrsflächen (Flure, Treppen, Aufzugschächte).

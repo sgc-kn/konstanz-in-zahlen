@@ -9,7 +9,6 @@ columns:
 - name: cinestar
   type: int
   description: 'Cinestar: BesucherInnen'
-  short: 'Cinestar: BesucherInnen'
 - name: cinestar_sitze
   type: int
   description: 'Cinestar: "Cinestar: Plätze"'
@@ -17,9 +16,7 @@ columns:
 - name: zebra
   type: int
   description: 'Zebra - Kommunales Kino: BesucherInnen'
-  short: 'Zebra - Kommunales Kino: BesucherInnen'
 - name: zebra_sitze
   type: int
   description: 'Zebra - Kommunales Kino: Plätze'
-  short: 'Zebra - Kommunales Kino: Plätze'
 ---

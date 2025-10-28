@@ -9,15 +9,12 @@ columns:
 - name: bestand
   type: int
   description: Medienbestand
-  short: Medienbestand
 - name: ausleihe
   type: int
   description: Ausleihen
-  short: Ausleihen
 - name: besucher
   type: Optional[int]
   description: BesucherInnen
-  short: BesucherInnen
 ---
 Anmerkungen:
 

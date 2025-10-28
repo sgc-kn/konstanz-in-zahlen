@@ -4,8 +4,7 @@ source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortsch
 columns:
 - name: jahr
   type: int
-  description: Jahr 
-  short: Jahr
+  description: Jahr
 - name: gesamt
   type: int
   description: Insgesamt

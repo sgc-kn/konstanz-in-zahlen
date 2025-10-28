@@ -4,12 +4,10 @@ source: Stadtwerke Konstanz
 columns:
 - name: jahr
   type: int
-  description: Jahr 
-  short: Jahr
+  description: Jahr
 - name: schiffe
   type: Optional[int]
   description: Fährschiffe
-  short: Fährschiffe
 - name: personen
   type: Optional[float]
   description: beförderte Personen

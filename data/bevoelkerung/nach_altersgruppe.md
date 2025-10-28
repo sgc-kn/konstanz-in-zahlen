@@ -4,8 +4,7 @@ source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortsch
 columns:
 - name: jahr
   type: int
-  description: Jahr 
-  short: Jahr
+  description: Jahr
 - name: bis_18
   type: Optional[int]
   description: Anzahl Einwohner, 0 bis unter 18 Jahre

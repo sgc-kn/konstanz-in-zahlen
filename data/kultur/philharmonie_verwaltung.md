@@ -5,15 +5,12 @@ columns:
 - name: jahr
   type: int
   description: Jahr
-  short: Jahr
 - name: musiker
   type: Optional[float]
   description: Musikerplanstellen
-  short: Musikerplanstellen
 - name: verwaltung
   type: Optional[float]
   description: Verwaltungsplanstellen
-  short: Verwaltungsplanstellen
 - name: budget
   type: Optional[float]
   description: Jahresbudget

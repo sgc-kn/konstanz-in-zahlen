@@ -1,10 +1,10 @@
 ---
-title: Bevölkerung nach Meldestatus - Wohnberechtigte Bevölkerung und Wohnbevölkerung 
+title: Bevölkerung nach Meldestatus - Wohnberechtigte Bevölkerung und Wohnbevölkerung
 source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortschreibung)
 columns:
 - name: jahr
   type: int
-  description: Jahr 
+  description: Jahr
 - name: wohnbevoelkerung_hauptwohnsitz
   type: int
   description: Anzahl Einwohner mit Hauptwohnsitz in Konstanz

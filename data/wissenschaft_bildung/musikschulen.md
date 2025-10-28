@@ -9,15 +9,10 @@ columns:
 - name: omk
   type: int
   description: Musikschule Konstanz
-  short: Musikschule Konstanz
 - name: jrs
   type: Optional[int]
   description: Jazz- und Rockschule
-  short: Jazz- und Rockschule
 ---
 Anmerkungen: 
 Musikschule Konstanz: 2020 wurde die Musikschule Konstanz e.V. in die Stadt integriert und ist nun als Städtische Musikschule „OMK – Musikschule der Stadt Konstanz“ Teil des Eigenbetriebs „Orchesterkultur und Musikbildung Konstanz OMK“.
-Jazz + Rockschule Konstanz e.V.: Der gemeinnützige Verein ist Dach einer Musikschule mit Schwerpunkt Jazz, Rock & Pop, die von Stadt Konstanz und Land Baden-Württemberg gefördert wird 
-
-
-
+Jazz + Rockschule Konstanz e.V.: Der gemeinnützige Verein ist Dach einer Musikschule mit Schwerpunkt Jazz, Rock & Pop, die von Stadt Konstanz und Land Baden-Württemberg gefördert wird

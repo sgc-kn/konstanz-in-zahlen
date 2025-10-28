@@ -21,4 +21,3 @@ columns:
   short: davon Jugendliche
 ---
 Anmerkungen:
-

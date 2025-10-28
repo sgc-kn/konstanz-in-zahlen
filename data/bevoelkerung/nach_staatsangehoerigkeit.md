@@ -4,20 +4,16 @@ source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortsch
 columns:
 - name: jahr
   type: int
-  description: Jahr 
-  short: Jahr
+  description: Jahr
 - name: gesamt
   type: int
   description: insgesamt
-  short: insgesamt
 - name: deutsch
   type: int
   description: Deutsche
-  short: Deutsche
 - name: nichtdeutsch
   type: int
   description: Nichtdeutsche
-  short: Nichtdeutsche
 - name: eu
   type: int
   description: darunter EU Staaten (ohne Dtl.)
@@ -25,18 +21,14 @@ columns:
 - name: nichteu
   type: int
   description: darunter Europa (Ohne EU)
-  short: darunter Europa (Ohne EU)
 - name: asien
   type: int
   description: darunter Asien
-  short: darunter Asien
 - name: afrika
   type: int
   description: darunter Afrika
-  short: darunter Afrika
 - name: amerika
   type: int
   description: darunter Amerika
-  short: darunter Amerika
 ---
 Anmerkungen: Wohnbevölkerung (Einwohner mit Hauptwohnsitz) zum Stichtag 31.12. mit erster Staatsangehörigkeit Deutsch / Nichtdeutsch sowie Nichtdeutsche nach Kontinent (Europa - EU-Staaten, Europa - ohne EU-Staaten, Asien, Afrika, Amerika).

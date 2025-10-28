@@ -10,7 +10,6 @@ columns:
   type: float
   description: Umweltverbund (zu Fuß, Fahrrad, Bus)
   unit: Prozent
-  short: Umweltverbund (zu Fuß, Fahrrad, Bus)
 - name: motorisiert
   type: float
   description: motorisierter Verkehr (Pkw, motor. Zweiräder)

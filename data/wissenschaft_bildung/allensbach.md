@@ -9,6 +9,5 @@ columns:
 - name: studierende
   type: int
   description: Studierende
-  short: Studierende
 ---
 Anmerkungen: Die Allensbach Hochschule ist eine staatlich anerkannte Hochschule des Bundeslandes Baden-Württemberg und bietet verschiedene berufsbegleitende Bachelor- und Masterprogramme im Bereich der Wirtschaftswissenschaften an.

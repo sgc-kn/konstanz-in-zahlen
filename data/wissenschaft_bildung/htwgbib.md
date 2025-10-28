@@ -9,7 +9,6 @@ columns:
 - name: bestand
   type: int
   description: Medienbestand
-  short: Medienbestand
 - name: bdigital
   type: Optional[int]
   description: 'Medienbestand: davon elektronisch'
@@ -17,7 +16,6 @@ columns:
 - name: zeitschrifen
   type: Optional[int]
   description: Zeitschriften/eJournals
-  short: Zeitschriften/eJournals
 - name: zdigital
   type: Optional[int]
   description: 'Zeitschriften/eJournals: davon elektronisch'
@@ -25,15 +23,12 @@ columns:
 - name: ausleihe
   type: int
   description: Ausleihen
-  short: Ausleihen
 - name: downloads
   type: Optional[int]
   description: Online-Ausleihen/ Downloads
-  short: Online-Ausleihen/ Downloads
 - name: besucher
   type: Optional[int]
   description: BibliotheksbesucherInnen
-  short: BibliotheksbesucherInnen
 ---
 Anmerkungen:
 

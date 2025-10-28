@@ -11,17 +11,14 @@ columns:
   type: int
   description: Technisches Gymnasium
   unit: Personen
-  short: Technisches Gymnasium
 - name: fach
   type: Optional[int]
   description: Fachschule, Kolleg u.a.
   unit: Personen
-  short: Fachschule, Kolleg u.a.
 - name: teilzeit
   type: int
   description: Teilzeitschule
   unit: Personen
-  short: Teilzeitschule
 ---
 (SchülerInnen)
 

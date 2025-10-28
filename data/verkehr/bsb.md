@@ -15,5 +15,4 @@ columns:
   type: Optional[int]
   description: Kilometerleistung
   unit: km
-  short: Kilometerleistung
 ---

@@ -11,7 +11,6 @@ columns:
   type: float
   description: Fläche insgesamt (ohne Tägermoos, CH)
   unit: qkm
-  short: Fläche insgesamt (ohne Tägermoos, CH)
 - name: landwirtschaft
   type: float
   description: darunter Landwirtschafts- und Waldfläche
@@ -41,7 +40,5 @@ columns:
   type: float
   description: Fläche im Tägermoos (CH)
   unit: qkm
-  short: Fläche im Tägermoos (CH)
 ---
 Anmerkungen: Flächen der Tatsächlichen Nutzungen aus dem Amtlichen Liegenschaftskataster Informationssystem (ALKIS), mit Stichtag 31.12.
-

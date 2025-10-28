@@ -9,21 +9,16 @@ columns:
 - name: rosgarten
   type: Optional[int]
   description: Rosgartenmuseum
-  short: Rosgartenmuseum
 - name: wessenberg
   type: Optional[int]
   description: Wessenberg-Galerie
-  short: Wessenberg-Galerie
 - name: hus
   type: Optional[int]
   description: Hus-Museum
-  short: Hus-Museum
 - name: alm
   type: Optional[int]
   description: Archäologisches Landesmuseum (ALM)
-  short: Archäologisches Landesmuseum (ALM)
 - name: natur
   type: Optional[int]
   description: Bodensee-Naturmuseum / Sealife
-  short: Bodensee-Naturmuseum / Sealife
 ---

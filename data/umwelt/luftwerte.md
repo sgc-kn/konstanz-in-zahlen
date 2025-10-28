@@ -37,4 +37,3 @@ Anmerkungen: Die Landesanstalt für Umwelt Baden-Württemberg (LUBW) betreibt in
 JMV: Jahresmittelwert
 Feinstaub PM 10: Particulate Matter (PM) bezeichnet inhalierbare Partikel mit einem Durchmesser von ≤ 10 µm, die gesundheitlich relevant sind.
 Grenzwert: In der Europäischen Union (EU) gibt es festgeschriebene Grenzwerte für verschiedene Luftschadstoffe, die in allen Mitgliedstaaten eingehalten werden müssen. Geplant ist ab 2030 deutlich niedrigere Grenzwerte anzusetzen.
-

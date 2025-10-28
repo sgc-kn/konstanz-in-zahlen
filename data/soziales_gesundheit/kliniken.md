@@ -9,15 +9,12 @@ columns:
 - name: klinikum
   type: Optional[int]
   description: Klinikum Konstanz zusammen mit Vincentius (Orthopädie, Unfall- und Handchirurgie)
-  short: Klinikum Konstanz zusammen mit Vincentius (Orthopädie, Unfall- und Handchirurgie)
 - name: schmieder
   type: int
   description: Kliniken Schmieder Rehabilitationsklinik
-  short: Kliniken Schmieder Rehabilitationsklinik
 - name: herzzentrum
   type: int
   description: Herz-Zentrum Bodensee II, Privatklinik
-  short: Herz-Zentrum Bodensee II, Privatklinik
 ---
 (Betten)
 Anmerkungen: 

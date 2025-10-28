@@ -9,11 +9,9 @@ columns:
 - name: bestand
   type: int
   description: Omnibusbestand
-  short: Omnibusbestand
 - name: davon_e
   type: Optional[int]
   description: darunter E-Bus
-  short: darunter E-Bus
 - name: personen
   type: float
   description: Beförderte Personen - ohne D-Ticket
