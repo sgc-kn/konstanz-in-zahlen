@@ -1,6 +1,5 @@
 ---
 title: Stromeinspeisung aus erneurbaren Energien sowie aus Blockheizkraftwerken
-teaser: Text
 source: Stadtwerke Konstanz
 columns:
 - name: jahr

@@ -1,6 +1,5 @@
 ---
 title: Tourismus
-teaser: Text
 source: Statistisches Landesamt Baden-Württemberg (Tourismusstatistik)
 columns:
 - name: jahr

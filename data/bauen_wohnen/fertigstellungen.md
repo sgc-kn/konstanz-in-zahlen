@@ -1,6 +1,5 @@
 ---
 title: Baufertigstellungen (neue Gebäude)
-teaser: Text
 source: Statistisches Landesamt Baden-Württemberg (Bautätigkeitsstatistik)
 columns:
 - name: jahr

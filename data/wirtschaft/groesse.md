@@ -1,6 +1,5 @@
 ---
 title: Betriebe / Niederlassungen nach Größe (Unternehmensregister)
-teaser: Text
 source: Statistisches Landesamt Baden-Württemberg (Unternehmensregister)
 columns:
 - name: jahr

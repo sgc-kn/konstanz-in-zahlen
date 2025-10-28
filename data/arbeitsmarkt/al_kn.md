@@ -1,6 +1,5 @@
 ---
 title: Arbeitslose Stadt Konstanz (jeweils Juni)
-teaser: Text
 source: Bundesagentur für Arbeit (BA)
 columns:
 - name: jahr

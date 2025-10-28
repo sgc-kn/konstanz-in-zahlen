@@ -1,6 +1,5 @@
 ---
 title: Trinkwasser
-teaser: Text
 source: Stadtwerke Konstanz
 columns:
 - name: jahr

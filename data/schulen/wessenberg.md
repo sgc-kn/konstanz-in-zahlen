@@ -1,6 +1,5 @@
 ---
 title: 'Kaufmännische Schule: Wessenberg-Schule'
-teaser: Text
 source: Wessenberg-Schule Konstanz
 columns:
 - name: jahr

@@ -1,6 +1,5 @@
 ---
 title: Sportvereine
-teaser: Text
 source: Stadt Konstanz, Amt für Bildung und Sport
 columns:
 - name: jahr

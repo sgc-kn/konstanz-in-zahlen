@@ -1,6 +1,5 @@
 ---
 title: Jugend- und Altenquote
-teaser: Gegenüberstellung von Jugend- und Altenquote in der Bevölkerung
 source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortschreibung)
 columns:
 - name: jahr

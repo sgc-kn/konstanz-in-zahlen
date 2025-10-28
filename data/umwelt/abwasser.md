@@ -1,6 +1,5 @@
 ---
 title: Abwasser
-teaser: Text
 source: Entsorgungsbetriebe Konstanz
 columns:
 - name: jahr

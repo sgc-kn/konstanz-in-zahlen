@@ -1,6 +1,5 @@
 ---
 title: Solarenergie - Installierte Leistung
-teaser: Text
 source: Bundesnetzagentur, Marktstammdatenregister
 columns:
 - name: jahr

@@ -1,6 +1,5 @@
 ---
 title: 'Gewerbliche Schule: Zeppelin-Gewerbeschule'
-teaser: Text
 source: Zeppelin-Gewerbeschule Konstanz
 columns:
 - name: jahr

@@ -1,6 +1,5 @@
 ---
 title: Weinbau - Spitalkellerei Konstanz
-teaser: Text
 source: Spitalkellerei Konstanz
 columns:
 - name: jahr

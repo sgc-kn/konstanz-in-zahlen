@@ -1,6 +1,5 @@
 ---
 title: Sozialvers.-pflichtig Beschäftigte nach Alter (jeweils Juni)
-teaser: Text
 source: Bundesagentur für Arbeit (BA)
 columns:
 - name: jahr

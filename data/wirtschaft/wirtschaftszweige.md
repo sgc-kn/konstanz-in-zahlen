@@ -1,6 +1,5 @@
 ---
 title: Betriebe nach Wirtschaftszweigen (WZ 2008; Unternehmensregister)
-teaser: Text
 source: Statistisches Landesamt Baden-Württemberg (Unternehmensregister)
 columns:
 - name: jahr

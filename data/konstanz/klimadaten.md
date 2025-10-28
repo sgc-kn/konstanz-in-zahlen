@@ -1,6 +1,5 @@
 ---
 title: Klimadaten
-teaser: Text
 source: Deutscher Wetterdienst (DWD)
 columns:
 - name: jahr

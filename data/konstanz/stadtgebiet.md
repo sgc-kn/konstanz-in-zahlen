@@ -1,6 +1,5 @@
 ---
 title: Stadtgebiet nach Flächennutzung
-teaser: Text
 source: Stadt Konstanz, Amt für Liegenschaften und Geoinformation
 columns:
 - name: jahr

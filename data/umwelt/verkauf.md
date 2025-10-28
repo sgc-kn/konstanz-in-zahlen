@@ -1,6 +1,5 @@
 ---
 title: Energie- und Wasserverkauf Stadtwerke
-teaser: Text
 source: Stadtwerke Konstanz
 columns:
 - name: jahr

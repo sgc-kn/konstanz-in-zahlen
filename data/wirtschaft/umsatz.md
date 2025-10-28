@@ -1,6 +1,5 @@
 ---
 title: Umsatz (Steuerbarer Umsatz der Unternehmen / rechtliche Einheiten)
-teaser: Text
 source: Statistisches Landesamt Baden-Württemberg (Unternehmensregister)
 columns:
 - name: jahr

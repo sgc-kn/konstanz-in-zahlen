@@ -1,6 +1,5 @@
 ---
 title: Luftwerte
-teaser: Text
 source: Landesanstalt für Umwelt Baden-Württemberg (LUBW)
 columns:
 - name: jahr

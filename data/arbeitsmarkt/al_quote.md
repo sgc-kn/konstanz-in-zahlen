@@ -1,6 +1,5 @@
 ---
 title: Arbeitslosenquote (Jahresdurchschnitt)
-teaser: Text
 source: Bundesagentur für Arbeit (BA)
 columns:
 - name: jahr

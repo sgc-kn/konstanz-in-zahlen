@@ -1,6 +1,5 @@
 ---
 title: Vorschulische Einrichtungen
-teaser: Text
 source: Stadt Konstanz, Amt für Bildung und Sport
 columns:
 - name: jahr

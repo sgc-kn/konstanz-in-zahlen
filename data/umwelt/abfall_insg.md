@@ -1,6 +1,5 @@
 ---
 title: Abfall- und Wertstoffmenge insg. in t
-teaser: Text
 source: Entsorgungsbetriebe Konstanz
 columns:
 - name: jahr

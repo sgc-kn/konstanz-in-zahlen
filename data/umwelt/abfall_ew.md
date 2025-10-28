@@ -1,6 +1,5 @@
 ---
 title: Abfall- und Wertstoffmenge je Einw. in kg
-teaser: Text
 source: Entsorgungsbetriebe Konstanz
 columns:
 - name: jahr
