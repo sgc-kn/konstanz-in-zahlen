@@ -80,7 +80,7 @@ def _import(
 
 @app.command("format-markdown")
 def _format_markdown(
-    path: Path = typer.Argument(..., help="Path to the markdown schema file."),
+    paths: list[Path] = typer.Argument(..., help="Path to the markdown schema file."),
 ):
     """
     Format table schema markdown files (inplace).
@@ -88,16 +88,20 @@ def _format_markdown(
     This just parses the schema and emits it again.
     """
 
-    if not path.exists():
-        typer.echo(f"Error: Path {path} does not exist", err=True)
-        raise typer.Exit(1)
+    if len(paths) == 0:
+        typer.echo("Error: provide at least one path", err=True)
 
-    if not path.is_file():
-        typer.echo(f"Error: {path} is not a file", err=True)
-        raise typer.Exit(1)
+    for path in paths:
+        if not path.exists():
+            typer.echo(f"Error: Path {path} does not exist", err=True)
+            raise typer.Exit(1)
 
-    schema = TableSchema.from_markdown_file(path)
-    schema.to_markdown_file(path)
+        if not path.is_file():
+            typer.echo(f"Error: {path} is not a file", err=True)
+            raise typer.Exit(1)
+
+        schema = TableSchema.from_markdown_file(path)
+        schema.to_markdown_file(path)
 
 
 @app.command("create-pydantic-model")
