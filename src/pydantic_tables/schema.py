@@ -1,6 +1,6 @@
 from pathlib import Path
-from pydantic import BaseModel
-from typing import List, Optional
+from pydantic import BaseModel, model_validator
+from typing import List, Optional, Self
 import io
 import jinja2
 import re
@@ -16,6 +16,14 @@ class ColumnSchema(BaseModel):
     computed: Optional[str] = None  # literal python code (expression)
     # Allow additional custom metadata fields at column level
     model_config = {"extra": "allow"}
+
+    @model_validator(mode="after")
+    def no_redunant_short(self) -> Self:
+        if self.short is not None and self.short == self.description:
+            raise ValueError(
+                f"short description and description of column {self.name} are the same. Please remove the short description."
+            )
+        return self
 
 
 yaml = ruamel.yaml.YAML()
