@@ -14,8 +14,6 @@ class ColumnSchema(BaseModel):
     unit: Optional[str] = None
     short: Optional[str] = None
     computed: Optional[str] = None  # literal python code (expression)
-    # Allow additional custom metadata fields at column level
-    model_config = {"extra": "allow"}
 
     @model_validator(mode="after")
     def no_redunant_short(self) -> Self:
@@ -38,12 +36,9 @@ j2_template = j2_env.get_template("table_schema.py.j2")
 
 class TableSchema(BaseModel):
     title: str
-    teaser: Optional[str] = None
     source: Optional[str] = None
     columns: List[ColumnSchema]
     description: Optional[str] = None
-    # Allow additional custom metadata fields at table level
-    model_config = {"extra": "allow"}
 
     @classmethod
     def from_markdown_file(cls, file_path: Path) -> "TableSchema":
