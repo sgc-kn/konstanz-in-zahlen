@@ -36,3 +36,4 @@ columns:
   description: 55 Jahre und älter
   short: 55 Jahre und älter
 ---
+Anmerkung: Arbeitslose am Wohnort Konstanz am 30.06. des Jahres. 

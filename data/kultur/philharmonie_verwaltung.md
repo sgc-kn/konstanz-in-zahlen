@@ -30,3 +30,4 @@ columns:
   unit: Mio. €
   short: davon Anteil Land Baden-Württemberg in Mio. €
 ---
+Anmerkung: Bodensee Philharmonie (bis 2024: Südwestdeutsche Philharmonie Konstanz) ist ein durch das Land Baden-Württemberg geförderten Sinfonieorchestern. Sie ist ein Eigenbetrieb der Stadt Konstanz. Seit 2021 gehört das Orchester zusammen mit der Musikschule zum städtischen Eigenbetrieb „Orchesterkultur und Musikbildung Konstanz“ (OMK).

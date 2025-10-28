@@ -22,4 +22,3 @@ columns:
 ---
 Anmerkungen:
 
-- Text

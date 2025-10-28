@@ -12,3 +12,4 @@ columns:
   unit: Mio. €
   short: ordentliche Aufwendungen im Ergebnishaushalt
 ---
+Anmerkung: Die von Wessenberg’sche Vermächtnisstiftung ist eine stadtnahe Stiftung, deren Zweck ist es besonders erziehungsbedürftigen Kindern und Jugendlichen familienunterstützende und familienergänzende Hilfen zu gewähren.

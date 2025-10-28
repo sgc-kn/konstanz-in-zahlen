@@ -19,3 +19,5 @@ columns:
   description: TeilnehmerInnen in Konstanz (ohne online)
   short: TeilnehmerInnen in Konstanz (ohne online)
 ---
+Anmerkungen:
+Volkshochschulverbund im Landkreis Konstanz. In der Stadt Konstanz ist eine der vier Hauptstellen angesiedelt. Die vhs hat 2021 ihre digitalen Angebote stark ausgebaut. Diese Online-Teilnehmenden sind keiner der vier Geschäftsstellen (Konstanz, Singen, Stockach, Radolfzell) direkt zugeordnet, sondern unserer fünften – der digitalen vhs.

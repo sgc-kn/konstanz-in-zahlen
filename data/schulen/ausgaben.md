@@ -4,7 +4,7 @@ source: Stadt Konstanz, Kämmerei
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr 
   short: Jahr
 - name: haushalt_mio
   type: float
@@ -42,12 +42,5 @@ columns:
   unit: €
   short: Nettoressourcenbedarf Schulen (pro SchülerIn) in €
 ---
-Anmerkungen:
+Anmerkungen: Die Stadt Konstanz als Schulträger ist für Errichtung, Unterhaltung und Verwaltung der allgemeinbildenden städtischen Schule verantwortlich und trägt in der Regel die Sachkosten. Dies umfasst die Kosten u.a. für Gebäude, technische Ausstattung u.v.m. sowie die Personalkosten für Sekretariat und Hausmeister (während die Personalkosten für Lehrer an öffentlichen Schulen vom Land übernommen werden). Der Ergebnishaushalt umfasst die Aufwendungen und Erträge im Haushaltsjahr.
 
-- keine
-
-Offene Fragen:
-
-- Beziehen sich die Angaben auf das Schul- oder Geschäftsjahr?
-- Ergebnishaushalt, was bedeutet das für Outsider?
-- Pro Schüler ist vermutlich nicht in Mio Euro?!

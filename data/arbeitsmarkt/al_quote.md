@@ -23,3 +23,4 @@ columns:
   unit: Prozent
   short: Bundesrepublik Deutschland
 ---
+Anmerkung: Die Arbeitslosenquote stellt den Anteil der Arbeitslosen an der Gesamtzahl der zivilen Erwerbspersonen dar. Sie wird von der Bundesagentur für Arbeit ermittelt (BA). Hier wird er Jahresdurchschnitt der Arbeitslosenquote dargestellt.

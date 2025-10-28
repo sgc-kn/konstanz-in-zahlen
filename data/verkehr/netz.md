@@ -18,5 +18,5 @@ columns:
   short: Radverkehrsinfrastruktur (ohne Tempo-30-Zonen)
 ---
 Anmerkungen:
-
+Straßennetz, hierbei handelt es sich um alle öffentlichen Straßen im Stadtgebiet, unabhängig von Träger oder Eigentümer. Privatstraßen sind nicht erfasst.
 -

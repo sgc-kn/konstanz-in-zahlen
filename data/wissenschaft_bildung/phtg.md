@@ -11,4 +11,4 @@ columns:
   description: Studierende
   short: Studierende
 ---
-in Kreuzlingen/Schweiz
+Anmerkungen: Die Pädagogische Hochschule Thurgau (PHTG) in Kreuzlingen ist eine Aus- und Weiterbildungsstätte für Lehrpersonen und Experten im Bereich der Frühen Kindheit. Die PHTG hat eine Kooperation mit der Universität Konstanz, diese beinhaltet u.a. drei grenzüberschreitende Studiengänge. 

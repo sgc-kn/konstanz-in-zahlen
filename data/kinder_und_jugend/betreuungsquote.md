@@ -4,7 +4,7 @@ source: Stadt Konstanz, Sozial- und Jugendamt
 columns:
 - name: jahr
   type: int
-  description: 'Jahr der Erhebung, Stichtag: 1. März'
+  description: 'Jahr, Stichtag: 1. März'
   short: Jahr
 - name: unter_3
   type: Optional[float]
@@ -27,11 +27,6 @@ columns:
   description: Grundschulkinder in Kindertagesstätten/Horte (ohne Sondereinrichtung)
   short: Grundschulkinder in Kindertagesstätten/Horte (ohne Sondereinrichtung)
 ---
-Anmerkungen:
+Anmerkungen: Betreuungsquote in Tageseinrichtungen und Spielgruppen (ohne Tagespflege) wird ermittelt durch die Gegenüberstellung der Zahl der betreuten Kinder zum Stichtag 01.03. des Jahres mit der Zahl der Gesamtbevölkerung der jeweiligen Altersgruppe am 31.12. des Vorjahres, jeweils bezogen auf die verschiedenen Altersgruppen.
 
-- Ohne Tagespflege
-- Stichtagserhebung am 1. März des jeweiligen Jahres
 
-Offene Fragen:
-
-- Wie sind die Zahlen zu interpretieren? Was sinde Zähler und Nenner?

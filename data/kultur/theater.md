@@ -1,11 +1,11 @@
 ---
-title: Stadttheater Konstanz (seit 1607)
-source: Stadttheater Konstanz
+title: Theater Konstanz (seit 1607)
+source: Theater Konstanz
 columns:
 - name: jahr
   type: str
-  description: Jahr der Erhebung
-  short: Jahr
+  description: Spielzeit
+  short: Spielzeit
 - name: neuinszenierung
   type: int
   description: Neuinszenierungen in der Spielzeit
@@ -19,3 +19,4 @@ columns:
   description: BesucherInnen
   short: BesucherInnen
 ---
+Anmerkung: Theater Konstanz ist eine Einrichtung der Stadt Konstanz mit mehreren Spielstätten.

@@ -56,3 +56,7 @@ columns:
   description: Erbringung von sonstigen Dienstleistungen
   short: Erbringung von sonstigen Dienstleistungen
 ---
+Anmerkungen: 
+Wirtschaftszweige: Die wirtschaftssystematische Zuordnung ist die branchenbezogene Einordnung von Niederlassungen (bis 2027: „Betriebe“) des statistischen Unternehmensregisters, diese basiert auf der Klassifikation der Wirtschaftszweige, Ausgabe 2008 (WZ 2008).
+Das Statistische Unternehmensregister ist eine regelmäßig aktualisierte Datenbank mit Informationen über Unternehmen, Rechtliche Einheiten und Niederlassungen aus nahezu allen Wirtschaftsbereichen (nicht enthalten ist u.a. die Öffentliche Verwaltung) mit Angaben zu Umsatz und/oder Beschäftigten. Ausgenommen sind jedoch unter anderem die Abschnitte „Land- und Forstwirtschaft, Fischerei“ (Abschnitt A), und „Öffentliche Verwaltung, Verteidigung, Sozialversicherung“ (Abschnitt O), der WZ 2008. Einbezogen in das statistische Unternehmensregister werden Niederlassungen und rechtliche Einheiten, die einen bestimmten Relevanz-Schwelle überschreiten (mind. 1 sv Beschäftigten, Höhe Umsatz).
+Eine Niederlassung (bis 2017: „Betriebe“) ist eine örtlich abgegrenzte Einheit, die einer Rechtlichen Einheit zugeordnet ist.

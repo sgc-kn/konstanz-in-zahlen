@@ -25,3 +25,8 @@ columns:
   unit: h
   short: 'konrad Lastenrad: Nutzungsstunden'
 ---
+Anmerkung: Fahrradmietsystem „konrad“ der Stadtwerke Konstanz wird seit 2024 vom Betreiber nextbike betrieben.
+Konrad: Mietfahrräder
+Konrad Lastenrad: Miet-Lastenräder, zum Teil mit Elektroantrieb
+Nutzungsstunden: mit dem Betreiberwechsel gibt es Methodenänderung bei der Ausweisung der Nutzungsstunden.
+

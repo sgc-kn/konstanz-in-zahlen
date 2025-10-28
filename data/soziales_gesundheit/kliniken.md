@@ -20,3 +20,7 @@ columns:
   short: Herz-Zentrum Bodensee II, Privatklinik
 ---
 (Betten)
+Anmerkungen: 
+Klinikum Konstanz mit der Vincentius Orthopädische Fachklinik gehört dem Gesundheitsverbund des Landkreis Konstanz (GLKN) an. Der GLKN ist durch den Zusammenschluss des Hegau-Bodensee-Klinikums und des Klinikums Konstanz entstanden.
+Kliniken-Schmieder ist eine neurologisches Rehabilitationskrankenhaus.
+Herz-Zentrum Bodensee am Standort Konstanz ist eine Spezialklinik für Herzchirurgie, Kardiologie und Elektrophysiologie.

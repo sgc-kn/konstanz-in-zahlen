@@ -18,3 +18,4 @@ columns:
 Anmerkungen:
 
 - Die Jugendquote (`unter_20`) sollte so hoch sein wie die Altenquote (`ueber_60`), um langfristig eine normale Reproduktion der Gesellschaft zu sichern.
+Wohnbevölkerung (Einwohner mit Hauptwohnsitz) zum Stichtag 31.12.

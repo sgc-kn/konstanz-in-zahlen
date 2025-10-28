@@ -5,7 +5,7 @@ source: Wessenberg-Schule Konstanz
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr 
   short: Jahr
 - name: wirtschaft
   type: Optional[int]

@@ -1,10 +1,10 @@
 ---
 title: Wohnbevölkerung (Hauptwohnsitz) nach Stadtteilen
-source: Stadt Konstanz, Amt für Digitalisierung und IT (DigIT), Abteilung Datenmanagement und Statistik (DuS)
+source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortschreibung)
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr 
   short: Jahr
 - name: egg
   type: int
@@ -67,4 +67,4 @@ columns:
   description: Petershausen-West
   short: Petershausen-West
 ---
-Anmerkungen:
+Anmerkungen: Wohnbevölkerung (Einwohner mit Hauptwohnsitz) in den 15 Stadteilen von Konstanz zum Stichtag 31.12.

@@ -18,6 +18,6 @@ columns:
   unit: kW
   short: Bestand installierter Bruttoleistung kW
 ---
-Anmerkungen:
+Anmerkungen: Die Bundesnetzagentur führt das Marktstammdatenregister (MaStR), ein behördliches Register in dem die Stammdaten des Strom- und Gasmarktes registriert sind. Registriert sind alle aktiven, ans Netz angeschlossenen Anlagen zur Erzeugung von Strom.
+EEG-Anlagen: Anlagen zur Erzeugung von Strom aus erneuerbaren Energien. 
 
-- Text

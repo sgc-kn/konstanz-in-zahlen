@@ -17,3 +17,4 @@ columns:
   unit: Mio. €
   short: Pflegeeinrichtungen
 ---
+Anmerkung: Die Spitalstiftung Konstanz ist eine kommunale Stiftung des öffentlichen Rechts.

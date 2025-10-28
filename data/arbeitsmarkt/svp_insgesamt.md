@@ -51,3 +51,8 @@ columns:
   description: sonstige Dienstleistungen (%)
   unit: Prozent
 ---
+Anmerkung: Sozialversicherungspflichtig Beschäftigte am Wohnort, wobei die Beschäftigten in der Stadt Konstanz wohnen, unabhängig davon wo sie arbeiten.
+Sozialversicherungspflichtig Beschäftigte am Arbeitsort, wobei die Betriebe der Beschäftigten ihren Sitz in der Stadt Konstanz haben. 
+Berufspendler sind alle sozialversicherungspflichtig Beschäftigten, deren Arbeitsort sich vom Wohnort unterscheidet. Berufseinpendler wohnen nicht an ihrem Arbeitsort, Berufsauspendler arbeiten nicht an ihrem Wohnort. Ob und wie häufig gependelt wird, ist unerheblich. Der Wohnort kann auch im Ausland liegen, der Arbeitsort - wegen des Inlandskonzepts der Beschäftigungsstatistik - jedoch nicht.
+Wirtschaftsbereich nach Klassifikation der Wirtschaftszweige, Ausgabe 2008 (WZ 2008).
+Alle Daten zum Sichtag 30.06.

@@ -4,7 +4,7 @@ source: Stadtwerke Konstanz
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr 
   short: Jahr
 - name: schiffe
   type: Optional[int]

@@ -12,6 +12,4 @@ columns:
   short: Einzelbenutzungen
 ---
 Anmerkungen:
-
-- Methodenwechsel 2016, kein Zeitvergleich möglich, seit 16/17 strengere Zählweise
-- Ab KiZ 2023 wieder Zeitvergleich
+2016/17 Methodenwechsel. Zeitreihe ab 2017 nicht vergleichbar mit Vorjahren.

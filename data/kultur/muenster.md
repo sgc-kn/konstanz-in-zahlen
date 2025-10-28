@@ -23,3 +23,4 @@ columns:
   description: Kulturamt (Wolkenstein-Saal, Foyer, Astoria-Saal)
   short: Kulturamt (Wolkenstein-Saal, Foyer, Astoria-Saal)
 ---
+Anmerkung: Das Kulturzentrum am Münster ist ein Ort der Kultur, Bildung und Kunst, an den sechs verschiedene kulturelle Institutionen unter einem Dach vereint sind.

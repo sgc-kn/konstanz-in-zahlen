@@ -23,3 +23,5 @@ columns:
   description: 'Park-and-Ride-Plätze: Stellplätze'
   short: Stellplätze
 ---
+Anmerkung: Parkhäuser, die im Verkehrsleitsystem der Stadt Konstanz ausgewiesen werden.
+Park-and-Ride-Anlagen sind Abstellanlagen an Haltestellen des öffentlichen Personenverkehrs. Sie dienen der einfachen und sicheren Verknüpfung von Pkw und Bus oder Bahn für intermodale Reiseketten

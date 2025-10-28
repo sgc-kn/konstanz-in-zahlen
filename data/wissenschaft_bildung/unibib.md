@@ -4,7 +4,7 @@ source: Universität Konstanz (Kommunikations-, Informations-, Medienzentrum)
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr
   short: Jahr
 - name: bestand
   type: int

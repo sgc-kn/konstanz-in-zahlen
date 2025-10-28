@@ -4,7 +4,7 @@ source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortsch
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr 
   short: Jahr
 - name: gesamt
   type: int
@@ -26,6 +26,4 @@ columns:
   description: darunter evangelisch
   short: evangelisch
 ---
-Anmerkungen:
-
-- Stichtagserhebung am 31. Dezember des jeweiligen Jahres.
+Anmerkungen: Wohnbevölkerung (Einwohner mit Hauptwohnsitz) zum Stichtag 31.12. nach Geschlecht (weiblich / männlich) und nach rechtlicher Zugehörigkeit zu einer Religionsgesellschaft (römisch-katholisch, evangelisch).

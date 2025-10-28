@@ -1,6 +1,6 @@
 ---
-title: Stadttheater Konstanz (seit 1607)
-source: Stadttheater Konstanz
+title: Theater Konstanz (seit 1607)
+source: Theater Konstanz
 columns:
 - name: jahr
   type: int
@@ -48,3 +48,4 @@ columns:
   unit: Mio. €
   short: Anteil der Inneren Verrechnungen am kommunalen Zuschuss in Mio. €
 ---
+Anmerkung: Theater Konstanz ist eine Einrichtung der Stadt Konstanz mit mehreren Spielstätten.

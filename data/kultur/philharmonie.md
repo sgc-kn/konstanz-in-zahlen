@@ -4,8 +4,8 @@ source: Orchesterkultur & Musikbildung Konstanz - Bodensee Philharmonie
 columns:
 - name: jahr
   type: str
-  description: Jahr der Erhebung
-  short: Jahr
+  description: Saison
+  short: Saison
 - name: konzerte
   type: Optional[int]
   description: Konzerte in der Saison
@@ -19,3 +19,4 @@ columns:
   description: Abonnements
   short: Abonnements
 ---
+Anmerkung: Bodensee Philharmonie (bis 2024: Südwestdeutsche Philharmonie Konstanz) ist ein durch das Land Baden-Württemberg geförderten Sinfonieorchestern. Sie ist ein Eigenbetrieb der Stadt Konstanz. Seit 2021 gehört das Orchester zusammen mit der Musikschule zum städtischen Eigenbetrieb „Orchesterkultur und Musikbildung Konstanz“ (OMK).

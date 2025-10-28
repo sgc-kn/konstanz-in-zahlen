@@ -4,7 +4,7 @@ source: Stadt Konstanz, Sozial- und Jugendamt
 columns:
 - name: jahr
   type: int
-  description: 'Jahr der Erhebung, Stichtag: 1. März'
+  description: 'Jahr, Stichtag: 1. März'
   short: Jahr
 - name: unter_3_kita
   type: int
@@ -39,6 +39,4 @@ columns:
   description: Anzahl Schulkinder in der Tagespflege
   short: Schulkinder in der Tagespflege
 ---
-Anmerkungen:
-
-- Anzahl betreuter Kinder zum Stichtag 1. März des jeweiligen Jahres
+Anmerkungen: Anzahl der betreuten Kinder zum Stichtag 1. März des Jahres in verschiedenen Kinderbetreuungseinrichtungen.

@@ -4,7 +4,7 @@ source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortsch
 columns:
 - name: jahr
   type: int
-  description: Jahr (Stichtag 31. Dezember)
+  description: Jahr 
   short: Jahr
 - name: bis_18
   type: Optional[int]
@@ -31,4 +31,4 @@ columns:
   description: Anzahl Einwohner, 60 Jahre und älter
   short: 60 Jahre und älter
 ---
-Wohnbevölkerung (Einwohner mit Hauptwohnsitz) in Konstanz nach Altersgruppen.
+Wohnbevölkerung (Einwohner mit Hauptwohnsitz) in Konstanz nach Altersgruppen zum Stichtag 31.12.

@@ -23,10 +23,5 @@ columns:
   description: Gymnasium
   short: Gymnasium
 ---
-Anmerkungen:
+Anmerkungen: Anteil der Kinder die von städtischen Grundschulen auf die angegebene weiterführende Schulform in Konstanz wechseln.
 
-- keine
-
-Offene Fragen:
-
-- Interpretation der Daten und Einheiten unklar.

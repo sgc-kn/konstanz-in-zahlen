@@ -1,11 +1,11 @@
 ---
 title: Vorschulische Einrichtungen
 teaser: Text
-source: Wessenberg-Schule Konstanz
+source: Stadt Konstanz, Amt für Bildung und Sport
 columns:
 - name: jahr
   type: str
-  description: Jahr der Erhebung
+  description: Schuljahr
   short: Jahr
 - name: sonderkita_anzahl
   type: int
@@ -28,3 +28,4 @@ columns:
   unit: Personen
   short: 'Grundschulförderklassen: SchülerInnen'
 ---
+Anmerkungen: Grundschulförderklasse (GFK) ist eine öffentliche Einrichtung und als Brücke zwischen Kindergarten und Grundschule zu sehen, für Kinder im schulpflichtigen Alter, die jedoch für ein Jahr vom Schulbesuch zurückgestellt wurden.

@@ -13,5 +13,4 @@ columns:
   short: Medienbestand
 ---
 Anmerkungen:
-
-- keine
+Die Suso-Bibliothek ist die historische Bibliothek des Suso-Gymnasiums. Sie besteht seit 1604. 

@@ -4,7 +4,7 @@ source: Stadt Konstanz, Sozial- und Jugendamt
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr 
   short: Jahr
 - name: heime
   type: int
@@ -53,5 +53,13 @@ columns:
 ---
 Anmerkungen:
 
-- Betreuungsgruppen sind organisierte Angebote, die man vielleicht mit einem kirchlichen Seniorennachmittag vergleichen könnte. Die Aktivitäten orientieren sich häufig an den Bedürfnissen und Möglichkeiten demenziell erkrankter Menschen. Einen Vormittag oder Nachmittag über wird dort ein geselliges Beisammensein gepflegt mit singen, spielen, unterhalten … Die Organisatoren sind ausgebildete Fachkräften, die meistens von einigen Ehrenamtlichen unterstützt werden.
-Bei einem häuslichen Betreuungsdienst dagegen kommen Fachkräfte oder Ehrenamtliche (je nach Fall und Schwere einer Erkrankung) nach Hause und können bei einer Eins-zu-Eins-Betreuung sich ganz nach den individuellen Wünschen richten.
+Altenpflegeheim ist eine vollstationäre Einrichtung, die Pflege und hauswirtschaftliche Versorgung sowie aktivierende Betreuungsangebote anbietet. 
+Senioren-Pflege-Wohngemeinschaft sind ambulant betreuten Pflegewohngemeinschaften.
+Seniorenzentrum für Kultur und Freizeit (SeZe) bietet Kulturprogramm mit Vorträgen, Gesprächsrunden, Lesungen, Konzerten, Kinoabenden und vielem mehr sowie einem Cafe. Die Angebote richten sich vor allem an ältere Bürgerinnen und Bürger. 
+Pflegedienste (ambulant) ist ein Dienstleistungsunternehmen, das pflege- und betreuungsbedürftige Menschen in deren eigener Wohnung gegen Entgelt versorgt.
+Tagespflegeeinrichtungen diese bieten Tagespflege als ein „teilstationäres“ Angebot an, welche in einer zugelassenen Pflegeeinrichtung mit qualifiziertem Personal in der Regel montags bis freitags angeboten wird. Die Tagesgäste wohnen nach wie vor zu Hause, nutzen aber an bestimmten Tagen das Angebot der Einrichtung.
+Hauswirtschaftlich-soziale Dienste erbringen hauswirtschaftliche Dienstleistungen in privaten Haushalten.
+(betreute) Seniorenwohnungen sind Wohnanlagen mit seniorengerechtem Wohnen, die verbunden sind mit der Unterstützung durch eine professionelle Kraft, die bei Bedarf notwendige Hilfen organisiert und persönliche Hilfestellung bietet. 
+Betreuungsgruppen sind organisierte Angebote. Die Aktivitäten orientieren sich häufig an den Bedürfnissen und Möglichkeiten demenziell erkrankter Menschen. Einen Vormittag oder Nachmittag über wird dort ein geselliges Beisammensein gepflegt. Die Organisatoren sind ausgebildete Fachkräfte, die meistens von einigen Ehrenamtlichen unterstützt werden.
+häusliche Betreuungsdienste, hier kommen Fachkräfte oder Ehrenamtliche nach Hause und können bei einer Eins-zu-Eins-Betreuung sich ganz nach den individuellen Wünschen richten.
+

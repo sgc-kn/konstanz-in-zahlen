@@ -43,7 +43,5 @@ columns:
   unit: qkm
   short: Fläche im Tägermoos (CH)
 ---
-Anmerkungen:
+Anmerkungen: Flächen der Tatsächlichen Nutzungen aus dem Amtlichen Liegenschaftskataster Informationssystem (ALKIS), mit Stichtag 31.12.
 
-- 1
-- 2

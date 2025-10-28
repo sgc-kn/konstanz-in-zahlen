@@ -62,10 +62,6 @@ columns:
   computed: self.grund + self.hauptwerkreal + self.real + self.gemeinschaft + self.gymnasien + self.sonderpaedagogisch
   description: 'insgesamt: SchülerInnen'
 ---
-Anmerkungen:
+Anmerkungen: Die Stadt Konstanz als Schulträger ist für die Errichtung, Unterhaltung und Verwaltung der allgemeinbildenden städtischen Schule verantwortlich. Die SchülerInnen kommen im Wesentlichen aus der Stadt Konstanz. Nur ein geringer Anteil (ca 12%) kommt von außerhalb.
 
-- keine
 
-Fragen:
-
-- Interpretation der Daten unklar.

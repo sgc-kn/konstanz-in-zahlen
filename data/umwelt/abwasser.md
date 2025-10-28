@@ -29,6 +29,7 @@ columns:
   short: Phosphorelimination (in %)
 ---
 Anmerkungen:
-
-- EW = Einwohner + in Einwohneräquivalente umgerechnete Schmutzfrachten aus Touristik, Gewerbe und Industrie
-- An die Zentralkläranlage Konstanz sind auch die Gemeinden Allensbach, Reichenau und Kreuzlingen (CH), Tägerwilen (CH) und Gottlieben (CH) angeschlossen.
+An die Zentralkläranlage Konstanz sind auch die Gemeinden Allensbach, Reichenau und Kreuzlingen (CH), Tägerwilen (CH) und Gottlieben (CH) angeschlossen.
+EW = Einwohner + in Einwohneräquivalente umgerechnete Schmutzfrachten aus Touristik, Gewerbe und Industrie. Mithilfe des Einwohnerwertes (EW) lässt sich die Belastung der Kläranlage abschätzen. Grundsätzlich sind die zu behandelnden Abwassermengen wegen der Mischkanalisation (Abfluss von Schmutz- und Regenwasser in einem Kanalsystem) wesentlich durch die Niederschlagsereignisse im Laufe des Jahres mitverursacht. 
+Abwasser: Wasser, das durch bauliche Maßnahmen abgeleitet wird (Schmutzwasser aus Haushaltsabflüssen, Niederschlagswasser durch Straßenabflüsse o.ä., Fremdwasser durch bauliche Schäden).
+Phosphorelimination: Abwasserreinigung durch die Entfernung von Phosphorverbindungen aus Abwässern in der Kläranlage. Phosphor ist ein Pflanzennährstoff, der im Überschuss zur Eutrophierung von Gewässern führen kann. 

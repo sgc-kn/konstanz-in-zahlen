@@ -44,3 +44,5 @@ columns:
   description: 'Übernachtungen nach Herkunftsländern: sonstige Länder'
   short: sonstige Länder
 ---
+Anmerkungen: Beherbergungsstatistik ist eine statistische Erfassung und Auswertung von Ankunfts- und Übernachtungszahlen in der Tourismusbranche. Die Beherbergungsstatistik bezieht sich auf Einrichtungen für die vorübergehende Beherbergung (unter zwei Monaten) von Gästen. Seit Januar 2012 werden Beherbergungsstätten mit zehn und mehr Betten sowie Campingplätze mit zehn und mehr Stellplätzen erfasst. Zuvor hatte eine niedrigere Abschneidegrenze von neun und mehr Schlafgelegenheiten gegolten. Kleinbetriebe mit weniger Betten bzw. Stellplätzen sind also in der Darstellung eben so wenig enthalten wie das Dauercamping bei den Campingplätzen. 
+Herkunftsland: Maßgebend ist grundsätzlich der ständige Wohnsitz oder der gewöhnliche Aufenthaltsort eines Gastes, nicht dagegen dessen Staatsangehörigkeit bzw. Nationalität.

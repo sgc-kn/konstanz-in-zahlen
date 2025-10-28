@@ -4,7 +4,7 @@ source: Stadtverwaltung Konstanz, Kämmerei
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr
   short: Jahr
 - name: einrichtungen
   type: Optional[float]
@@ -27,11 +27,4 @@ columns:
   description: Investitionskostenzuschüsse (Ansatz) Kinderhäuser, Kindergärten und Kindertagesstätten und Einrichtungen der Kinder u. Jugendarbeit
   short: Investitionskostenzuschüsse (Ansatz) Kinderhäuser, Kindergärten und Kindertagesstätten und Einrichtungen der Kinder und Jugendarbeit
 ---
-Anmerkungen:
-
-- Ansatz in Millionen €
-
-Offene Fragen:
-
-- Was ist Ansatz?
-- Auf welchen Zeitraum beziehen sich die Daten? Geschäftsjahre? Wie sind die definiert?
+Anmerkungen: Ausgaben und Zuschüsse im jeweiligen Haushaltsjahr laut Haushaltsplan, Haushaltsansatz in Millionen Euro.

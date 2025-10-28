@@ -20,3 +20,4 @@ columns:
   description: 55 Jahre und älter
   short: 55 Jahre und älter
 ---
+Anmerkung: Sozialversicherungspflichtig Beschäftigte am Arbeitsort, wobei die Betriebe der Beschäftigten ihren Sitz in der Stadt Konstanz haben, zum Stichtag 30.06.

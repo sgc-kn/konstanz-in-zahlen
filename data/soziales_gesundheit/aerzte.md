@@ -4,7 +4,7 @@ source: Kassenärztliche Vereinigung Baden-Württemberg; Bezirkszahnärztekammer
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr
   short: Jahr
 - name: vertrag
   type: int

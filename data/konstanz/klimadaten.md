@@ -5,7 +5,7 @@ source: Deutscher Wetterdienst (DWD)
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
+  description: Jahr 
   short: Jahr
 - name: temperatur
   type: float
@@ -23,3 +23,7 @@ columns:
   unit: Stunden pro Jahr
   short: Sonnenscheindauer (Stunden im Jahr)
 ---
+Anmerkung: Der Deutsche Wetterdienst stellt Klimadaten im „Climate Data Center“ (https://cdc.dwd.de/portal) zur Verfügung mit den jährlichen Stationswerten für die Station Konstanz (ID: 2712): 
+- „Jahresmittel der Stationsmessungen der Lufttemperatur in 2 m Höhe in °C“
+- „Jahressumme der Stationsmessungen der Niederschlagshöhe in mm“ 
+- „Jahressumme der Stationsmessungen der Sonnenscheindauer in Stunden“.

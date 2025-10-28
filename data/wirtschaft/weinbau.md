@@ -18,3 +18,4 @@ columns:
   unit: Hektoliter
   short: Erntemenge (Hektoliter)
 ---
+Anmerkungen: Die Spitalkellerei Konstanz gehört seit 1225 zur Spitalstiftung Konstanz und ist die älteste Weinbau treibende Stiftungskellerei Deutschlands. Die Weinberge der Spitalkellerei liegen in Konstanz und Meersburg.
