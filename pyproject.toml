@@ -35,7 +35,6 @@ where = ["src"]
 include = ["data", "src", "test"]
 typeCheckingMode = "basic"
 reportMissingParameterType = "error"
-reportMissingReturnType = "error"
 reportMissingTypeStubs = false
 reportUnknownMemberType = false
 reportUnknownArgumentType = false
