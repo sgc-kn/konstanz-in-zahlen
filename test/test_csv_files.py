@@ -3,15 +3,17 @@ import pytest
 from pathlib import Path
 from pydantic_tables import csv, discover, model
 
+root = discover.data()
 
-@pytest.mark.parametrize("csv_file", [str(p) for p in discover.csv_files()])
+
+@pytest.mark.parametrize("csv_file", [str(p) for p in discover.csv_files(root)])
 def test_csv_has_schema(csv_file: str):
     """Test: Ensure each table.csv has a corresponding table.md"""
     schema = Path(csv_file).with_suffix(".md")
     assert schema.exists(), f"Missing {schema} file for {csv_file}"
 
 
-@pytest.mark.parametrize("csv_file", [str(p) for p in discover.csv_files()])
+@pytest.mark.parametrize("csv_file", [str(p) for p in discover.csv_files(root)])
 def test_schema(csv_file: str):
     """Test: Validate schema"""
     csv_path = Path(csv_file)
@@ -23,7 +25,7 @@ def test_schema(csv_file: str):
     csv.load_and_validate(csv_path, model_)
 
 
-@pytest.mark.parametrize("csv_file", [str(p) for p in discover.csv_files()])
+@pytest.mark.parametrize("csv_file", [str(p) for p in discover.csv_files(root)])
 def test_csv_data(csv_file: str):
     """Test: Validate CSV against its schema"""
     csv_path = Path(csv_file)

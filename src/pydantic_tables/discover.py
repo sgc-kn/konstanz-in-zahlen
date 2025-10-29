@@ -1,25 +1,25 @@
 from pathlib import Path
 
 
-def root() -> Path:
-    """Find the project root by locating pyproject.toml"""
-    path = Path(__file__).resolve()
-    for parent in path.parents:
-        if (parent / "pyproject.toml").exists():
-            return parent
-    raise FileNotFoundError("Could not find pyproject.toml to determine project root.")
+def data() -> Path:
+    cwd = Path.cwd()
+
+    if (cwd / "data").is_dir():
+        return cwd / "data"
+
+    raise RuntimeError(f"Data path not found. The current working directory is: {cwd}")
 
 
-def csv_files() -> list[Path]:
-    return list(root().glob("data/**/*.csv"))
+def csv_files(data: Path) -> list[Path]:
+    return list(data.glob("**/*.csv"))
 
 
-def dataset(name: str) -> Path:
-    path = root() / "data" / name
+def dataset(data: Path, name: str) -> Path:
+    path = data / name
     if not path.is_dir():
         raise KeyError(f"dataset does not exist: {name}")
     return path
 
 
-def datasets() -> list[Path]:
-    return list(root().glob("data/**"))
+def datasets(data: Path) -> list[Path]:
+    return list(data.glob("*"))
