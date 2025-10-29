@@ -61,3 +61,7 @@ reformat-all-models:
 # test schema formatting (potentially destructive)
 test-reformat-all-models: reformat-all-models
   git diff --stat --exit-code data/*/[a-z]*.md
+
+# upgrade python dependencies
+upgrade:
+  uv lock --upgrade && uv sync
