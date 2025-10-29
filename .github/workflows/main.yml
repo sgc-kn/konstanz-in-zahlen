@@ -1,4 +1,4 @@
-name: 'Test & Report' 
+name: 'Tests' 
 on:
   pull_request:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   main:
-    name: 'Test & Report'
+    name: 'Tests'
 
     runs-on: ubuntu-latest
     steps:
@@ -15,19 +15,8 @@ jobs:
       - name: Checkout (GitHub)
         uses: actions/checkout@v4
 
-      - name: Get short SHA hash
-        id: vars
-        run: echo "short_sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-
-      - name: Run tests & build reports
+      - name: Run tests
         uses: devcontainers/ci@v0.3
         with:
           runCmd: just ci
           push: never
-
-      - name: Upload reports as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: kiz-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.number) || 'main' }}-${{ steps.vars.outputs.short_sha }}
-          path: output/
-          retention-days: 30
