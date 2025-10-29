@@ -10,9 +10,9 @@ import ruamel.yaml
 class ColumnSchema(BaseModel):
     name: str  # python field name, CSV header
     type: str  # literal python code (type hint)
-    description: Optional[str] = None  # TODO make obligatory
+    description: str  # human readable description
     unit: Optional[str] = None
-    short: Optional[str] = None
+    short: Optional[str] = None  # short description, used as column title
     computed: Optional[str] = None  # literal python code (expression)
 
     @model_validator(mode="after")
@@ -68,6 +68,16 @@ class TableSchema(BaseModel):
     def to_python_file(self, file_path: Path) -> None:
         imports = []
 
+        if self.description and self.source:
+            # TODO German language leak ahead:
+            table_description = self.description + "\n\nQuelle: " + self.source
+        elif self.description:
+            table_description = self.description
+        elif self.source:
+            table_description = "Quelle: " + self.source
+        else:
+            table_description = None
+
         for c in self.columns:
             if c.computed:
                 imports.append("from pydantic import computed_field")
@@ -78,39 +88,26 @@ class TableSchema(BaseModel):
                 imports.append("from typing import Optional")
                 break
 
-        tab_data = self.model_dump(exclude_none=True)
-        tab_data.pop("columns", None)
-        tab_data.pop("description", None)
-        tab_data.pop("title", None)
-        if tab_data:
-            tab_yaml = io.StringIO()
-            yaml.dump(tab_data, tab_yaml)
-            tab_yaml = tab_yaml.getvalue()
-        else:
-            tab_yaml = None
+        def field_info(col: ColumnSchema) -> str:
+            kwargs: dict[str, str] = dict()
 
-        columns = []
-        for c in self.columns:
-            col_data = c.model_dump(exclude_none=True)
-            col_data.pop("computed", None)
-            col_data.pop("description")
-            col_data.pop("name")
-            col_data.pop("type")
-            if col_data:
-                col_yaml = io.StringIO()
-                yaml.dump(col_data, col_yaml)
-                col_yaml = col_yaml.getvalue()
-            else:
-                col_yaml = None
-            columns.append((c, col_yaml))
+            if col.short is not None:
+                kwargs["title"] = col.short
+
+            kwargs["description"] = col.description
+
+            if col.unit is not None:
+                kwargs["description"] += ", Einheit: " + col.unit
+
+            return ", ".join([f"{k} = {repr(v)}" for k, v in kwargs.items()])
 
         imports = sorted(imports)
 
         text = j2_template.render(
             table=self,
-            table_yaml=tab_yaml,
+            table_description=table_description,
             imports=imports,
-            columns=columns,
+            field_info=field_info,
         )
         file_path = file_path.with_suffix(".py")
         file_path.write_text(text, encoding="utf-8")

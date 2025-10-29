@@ -87,15 +87,15 @@ def load(model: ModelPath | Path) -> MetaTable:
     schema = TableSchema.from_markdown_file(model.path)
     module = _load_module(model, schema)
 
-    if not hasattr(module, "Table"):
-        raise ModelLoadError(f"Module {path} does not have a 'Table' attribute")
+    if not hasattr(module, "Schema"):
+        raise ModelLoadError(f"Module {path} does not have a 'Schema' attribute")
 
-    model_class = module.Table
+    model_class = module.Schema
 
     if not isinstance(model_class, type):
-        raise ModelLoadError(f"'Table' in {path} is not a class")
+        raise ModelLoadError(f"'Schema' in {path} is not a class")
 
     if not issubclass(model_class, pydantic.BaseModel):
-        raise ModelLoadError(f"'Table' in {path} is not a Pydantic BaseModel subclass")
+        raise ModelLoadError(f"'Schema' in {path} is not a Pydantic BaseModel subclass")
 
     return MetaTable(model=model_class, schema=schema)

@@ -1,56 +1,27 @@
-import pydantic
+from pydantic import BaseModel, Field
 {%- for imp in imports %}
 {{ imp }}
 {%- endfor %}
 
 
-class Table(pydantic.BaseModel):
+class Schema(BaseModel):
+{%- if table_description %}
     """
-    {{ table.title }}
-{% if table.description|length %}
-    {{ table.description | indent(width=4) }}
+    {{table.title | indent(width=4)}}
+
+    {{ table_description | indent(width=4) }}
+    """
+{% else %}
+    """{{ table.title }}"""
 {% endif %}
-{%- if table_yaml %}
-    ---yaml
-    {{ table_yaml | indent(width=4) }}    """
-{%- else %}
-    """
-{%- endif %}
 
-{%- for (col, col_yaml) in columns %}
-
-    {% if col.computed -%}
-
-    @computed_field
+{%- for col in table.columns %}
+    {% if col.computed %}
     @property
+    @computed_field({{ field_info(col) }})
     def {{col.name}}(self) -> {{col.type}}:
-        {%- if col_yaml %}
-        """
-        {{ col.description or "" }}
-
-        ---yaml
-        {{ col_yaml | indent(width=8) }}        """
-        {%- else %}
-        """{{ col.description }}"""
-        {%- endif %}
         return {{ col.computed }}
-
-    {%- else -%}
-
-    {{ col.name }}: {{ col.type }}
-    {%- if col_yaml %}
-    """
-    {{ col.description or "" }}
-
-    ---yaml
-    {{ col_yaml | indent(width=4) }}    """
-    {%- else %}
-    """{{ col.description }}"""
+    {% else -%}
+    {{ col.name }}: {{ col.type }} = Field({{ field_info(col) }})
     {%- endif %}
-
-    {%- endif %}
-
 {%- endfor %}
-
-    # set attribute docstring as field.description
-    model_config = pydantic.ConfigDict(use_attribute_docstrings=True)
