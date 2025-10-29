@@ -12,4 +12,4 @@ columns:
   type: Optional[int]
   description: Anzahl der Wegzüge von Konstanz
 ---
-Anmerkungen: Außenwanderung: Anzahl der Zuzüge und der Wegzüge über die Stadtgrenze von Einwohnern mit Hauptwohnsitz (Wohnbevölkerung) während des jeweiligen Kalenderjahres.
+Außenwanderung: Anzahl der Zuzüge und der Wegzüge über die Stadtgrenze von Einwohnern mit Hauptwohnsitz (Wohnbevölkerung) während des jeweiligen Kalenderjahres.
