@@ -46,7 +46,7 @@ Anmerkungen:
 Altenpflegeheim ist eine vollstationäre Einrichtung, die Pflege und hauswirtschaftliche Versorgung sowie aktivierende Betreuungsangebote anbietet. 
 Senioren-Pflege-Wohngemeinschaft sind ambulant betreuten Pflegewohngemeinschaften.
 Seniorenzentrum für Kultur und Freizeit (SeZe) bietet Kulturprogramm mit Vorträgen, Gesprächsrunden, Lesungen, Konzerten, Kinoabenden und vielem mehr sowie einem Cafe. Die Angebote richten sich vor allem an ältere Bürgerinnen und Bürger. 
-Pflegedienste (ambulant) ist ein Dienstleistungsunternehmen, das pflege- und betreuungsbedürftige Menschen in deren eigener Wohnung gegen Entgelt versorgt.
+Pflegedienste (ambulant) sind Dienstleistungsunternehmen, die pflege- und betreuungsbedürftige Menschen in deren eigener Wohnung gegen Entgelt versorgen.
 Tagespflegeeinrichtungen diese bieten Tagespflege als ein „teilstationäres“ Angebot an, welche in einer zugelassenen Pflegeeinrichtung mit qualifiziertem Personal in der Regel montags bis freitags angeboten wird. Die Tagesgäste wohnen nach wie vor zu Hause, nutzen aber an bestimmten Tagen das Angebot der Einrichtung.
 Hauswirtschaftlich-soziale Dienste erbringen hauswirtschaftliche Dienstleistungen in privaten Haushalten.
 (betreute) Seniorenwohnungen sind Wohnanlagen mit seniorengerechtem Wohnen, die verbunden sind mit der Unterstützung durch eine professionelle Kraft, die bei Bedarf notwendige Hilfen organisiert und persönliche Hilfestellung bietet. 

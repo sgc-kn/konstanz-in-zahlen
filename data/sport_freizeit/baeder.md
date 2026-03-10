@@ -44,5 +44,4 @@ columns:
   unit: Personen
 ---
 Anmerkungen:
-
-- Text
+Die hier aufgeführten Bäder werden von der Bädergesellschaft Konstanz mdH (BGK) betrieben, die eine hundertprozentige Tochter der Stadtwerke Konstanz ist.
