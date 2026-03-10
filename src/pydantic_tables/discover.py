@@ -10,6 +10,10 @@ def data() -> Path:
     raise RuntimeError(f"Data path not found. The current working directory is: {cwd}")
 
 
+def root() -> Path:
+    return Path.cwd()
+
+
 def csv_files(data: Path) -> list[Path]:
     return list(data.glob("**/*.csv"))
 
