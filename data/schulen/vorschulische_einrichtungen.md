@@ -5,23 +5,28 @@ columns:
 - name: jahr
   type: str
   description: Schuljahr
-  short: Jahr
+  short: Vorschulische Einrichtungen und Anzahl der SchülerInnen seit 2001
+  export_id: Schuljahr
 - name: sonderkita_anzahl
   type: int
-  description: 'Sonderschulkindergarten für Sprachbehinderte (seit 2020/21 in Kooperation)): Anzahl'
-  unit: Personen
-  short: 'Sonderschulkindergarten für Sprachbehinderte (seit 2020/21 in Kooperation): Anzahl'
+  description: Schulkindergarten für Sprache (seit 2020/21 in Kooperation)
+  unit: Anzahl
+  short: 'Schulkindergarten für Sprache (seit 2020/21 in Kooperation): Anzahl'
+  export_id: 'Schulkindergarten für Sprache (seit 2020/21 in Kooperation): Anzahl'
 - name: sonderkita_personen
   type: int
-  description: 'Sonderschulkindergarten für Sprachbehinderte (seit 2020/21 in Kooperation): SchülerInnen'
-  unit: Personen
+  description: 'Schulkindergarten für Sprache (seit 2020/21 in Kooperation): SchülerInnen'
+  unit: Anzahl SchülerInnen
+  export_id: 'Schulkindergarten für Sprache (seit 2020/21 in Kooperation): SchülerInnen'
 - name: foerderklassen_anzahl
   type: int
-  description: 'Grundschulförderklassen: Anzahl'
-  unit: Personen
+  description: Grundschulförderklassen
+  unit: Anzahl
+  export_id: 'Grundschulförderklassen: Anzahl'
 - name: foerderklassen_personen
   type: int
-  description: 'Grundschulförderklassen: SchülerInnen'
-  unit: Personen
+  description: Grundschulförderklassen
+  unit: Anzahl SchülerInnen
+  export_id: 'Grundschulförderklassen: SchülerInnen'
 ---
-Anmerkungen: Grundschulförderklasse (GFK) ist eine öffentliche Einrichtung und als Brücke zwischen Kindergarten und Grundschule zu sehen, für Kinder im schulpflichtigen Alter, die jedoch für ein Jahr vom Schulbesuch zurückgestellt wurden.
+Anmerkungen: Eine Grundschulförderklasse ist eine öffentliche Einrichtung. Sie soll für Kinder im schulpflichtigen Alter, die jedoch für ein Jahr vom Schulbesuch zurückgestellt wurden als Brücke zwischen Kindergarten und Grundschule dienen.

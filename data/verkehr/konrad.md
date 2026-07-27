@@ -4,24 +4,33 @@ source: Stadtwerke Konstanz Mobil GmbH
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
-  short: Jahr
+  description: Jahr
+  short: Anmietungen und Nutzungsstunden des Konstanzer "konrad" Fahrradmietsystem seit 2018
+  export_id: Jahr der Erhebung
 - name: konrad_miet
-  type: int
-  description: 'konrad: Anmietungen'
+  type: Optional[int]
+  description: konrad
+  unit: Anzahl Anmietungen
+  export_id: 'konrad: Anmietungen'
 - name: konrad_stunden
-  type: int
-  description: 'konrad: Nutzungsstunden'
+  type: Optional[int]
+  description: konrad
   unit: h
+  export_id: 'konrad: Nutzungsstunden'
 - name: lastenrad_miet
-  type: int
-  description: 'konrad Lastenrad: Anmietungen'
+  type: Optional[int]
+  description: konrad Lastenrad
+  unit: Anzahl Anmietungen
+  export_id: 'konrad Lastenrad: Anmietungen'
 - name: lastenrad_stunden
-  type: int
-  description: 'konrad Lastenrad: Nutzungsstunden'
+  type: Optional[int]
+  description: konrad Lastenrad
   unit: h
+  export_id: 'konrad Lastenrad: Nutzungsstunden'
 ---
-Anmerkung: Fahrradmietsystem „konrad“ der Stadtwerke Konstanz wird seit 2024 vom Betreiber nextbike betrieben.
-Konrad: Mietfahrräder
-Konrad Lastenrad: Miet-Lastenräder, zum Teil mit Elektroantrieb
-Nutzungsstunden: mit dem Betreiberwechsel gibt es Methodenänderung bei der Ausweisung der Nutzungsstunden.
+Anmerkungen: Fahrradmietsystem „konrad“ der Stadtwerke Konstanz wird seit 2024 vom Betreiber nextbike betrieben.
+
+- Konrad: Mietfahrräder  
+- Konrad Lastenrad: Miet-Lastenräder, zum Teil mit Elektroantrieb  
+- Nutzungsstunden (h): Mit dem Betreiberwechsel gibt es Methodenänderung bei der Ausweisung der Nutzungsstunden.  
+- Weitere Informationen finden Sie unter: https://www.stadtwerke-konstanz.de/fahrrad/aktuelles/ .

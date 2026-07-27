@@ -4,11 +4,14 @@ source: Stadt Konstanz, Stadtarchiv
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
-  short: Jahr
+  description: Jahr
+  short: xxx
+  export_id: Jahr der Erhebung
 - name: nutzung
   type: int
-  description: Einzelbenutzungen
+  description: Einzelbenutzungen des Stadtarchivs seit 2000
+  unit: Einzelbenutzungen
+  export_id: Einzelbenutzungen
 ---
-Anmerkungen:
-2016/17 Methodenwechsel. Zeitreihe ab 2017 nicht vergleichbar mit Vorjahren.
+Anmerkungen: Das Stadtarchiv verwahrt circa 5 Regalkilometer Schrift- und Bildmaterial vom 13. Jahrhundert bis in die jüngste Vergangenheit.
+Die Zahlen ab 2017 sind nicht mit den Vorjahren vergleichbar, da ein Methodenwechsel stattgefunden hat.

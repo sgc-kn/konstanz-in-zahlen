@@ -5,39 +5,48 @@ columns:
 - name: jahr
   type: int
   description: Jahr
+  short: Städtischer Haushalt für Schulen seit 2001
+  export_id: Jahr
 - name: haushalt_mio
   type: float
-  description: Ergebnishaushalt in Mio. €
+  description: Ergebnishaushalt
   unit: Mio. €
   short: 'Ergebnishaushalt: in Mio. €'
+  export_id: Ergebnishaushalt in Mio. €
 - name: haushalt_proschueler
   type: int
-  description: Ergebnishaushalt pro SchülerIn
-  unit: €
+  description: Ergebnishaushalt
+  unit: € pro SchülerIn
   short: 'Ergebnishaushalt: pro SchülerIn'
+  export_id: Ergebnishaushalt pro SchülerIn
 - name: investitionen_mio
   type: float
-  description: Investitionen in Mio. €
+  description: Investitionen
   unit: Mio. €
   short: 'Investitionen: in Mio. €'
+  export_id: Investitionen in Mio. €
 - name: investitionen_proschueler
   type: int
-  description: Investitionen pro SchülerIn
-  unit: €
+  description: Investitionen
+  unit: € pro SchülerIn
   short: 'Investitionen: pro SchülerIn'
+  export_id: Investitionen pro SchülerIn
 - name: mio_insgesamt
   type: float
-  description: 'insgesamt: in Mio €'
+  description: Insgesamt
   unit: Mio. €
-  computed: self.haushalt_mio + self.investitionen_mio
+  computed: haushalt_mio + investitionen_mio
+  export_id: 'insgesamt: in Mio €'
 - name: proschueler_insgesamt
   type: int
-  description: 'insgesamt: pro SchülerIn'
-  unit: €
-  computed: self.haushalt_proschueler + self.investitionen_proschueler
+  description: Insgesamt
+  unit: € pro SchülerIn
+  computed: haushalt_proschueler + investitionen_proschueler
+  export_id: 'insgesamt: pro SchülerIn'
 - name: bedarf
   type: Optional[int]
-  description: Nettoressourcenbedarf Schulen (pro SchülerIn) in €
-  unit: €
+  description: Nettoressourcenbedarf Schulen
+  unit: € pro SchülerIn
+  export_id: Nettoressourcenbedarf Schulen (pro SchülerIn) in €
 ---
-Anmerkungen: Die Stadt Konstanz als Schulträger ist für Errichtung, Unterhaltung und Verwaltung der allgemeinbildenden städtischen Schule verantwortlich und trägt in der Regel die Sachkosten. Dies umfasst die Kosten u.a. für Gebäude, technische Ausstattung u.v.m. sowie die Personalkosten für Sekretariat und Hausmeister (während die Personalkosten für Lehrer an öffentlichen Schulen vom Land übernommen werden). Der Ergebnishaushalt umfasst die Aufwendungen und Erträge im Haushaltsjahr.
+Anmerkungen: Die Stadt Konstanz als Schulträger ist für Errichtung, Unterhaltung und Verwaltung der allgemeinbildenden städtischen Schule verantwortlich und trägt in der Regel die Sachkosten. Dies umfasst die Kosten u.a. für Gebäude, technische Ausstattung, sowie die Personalkosten für Sekretariat und Hausmeister (während die Personalkosten für Lehrer an öffentlichen Schulen vom Land übernommen werden). Der Ergebnishaushalt umfasst die Aufwendungen und Erträge im Haushaltsjahr.

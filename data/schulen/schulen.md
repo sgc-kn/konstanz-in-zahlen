@@ -5,49 +5,77 @@ columns:
 - name: jahr
   type: str
   description: Schuljahr
+  short: Allgemeinbildende städtische Schulen und ihre SchülerInnen seit 2000
+  export_id: Schuljahr
 - name: grund_schulen
   type: int
-  description: 'Grundschulen: Schulen'
+  description: Grundschulen
+  unit: Anzahl Schulen
+  export_id: 'Grundschulen: Schulen'
 - name: grund
   type: int
-  description: 'Grundschulen: SchülerInnen'
+  description: Grundschulen
+  unit: Anzahl SchülerInnen
+  export_id: 'Grundschulen: SchülerInnen'
 - name: hauptwerkreal_schulen
   type: int
-  description: 'Haupt-/Werkrealschulen: Schulen'
+  description: Haupt-/Werkrealschulen
+  unit: Anzahl Schulen
+  export_id: 'Haupt-/Werkrealschulen: Schulen'
 - name: hauptwerkreal
   type: int
-  description: 'Haupt-/Werkrealschulen: SchülerInnen'
+  description: Haupt-/Werkrealschulen
+  unit: Anzahl SchülerInnen
+  export_id: 'Haupt-/Werkrealschulen: SchülerInnen'
 - name: real_schulen
   type: int
-  description: 'Realschulen: Schulen'
+  description: Realschulen
+  unit: Anzahl Schulen
+  export_id: 'Realschulen: Schulen'
 - name: real
   type: int
-  description: 'Realschulen: SchülerInnen'
+  description: Realschulen
+  unit: Anzahl SchülerInnen
+  export_id: 'Realschulen: SchülerInnen'
 - name: gemeinschaft_schulen
   type: int
-  description: 'Gemeinschaftsschulen: Schulen'
+  description: Gemeinschaftsschulen
+  unit: Anzahl Schulen
+  export_id: 'Gemeinschaftsschulen: Schulen'
 - name: gemeinschaft
   type: int
-  description: 'Gemeinschaftsschulen: SchülerInnen'
+  description: Gemeinschaftsschulen
+  unit: Anzahl SchülerInnen
+  export_id: 'Gemeinschaftsschulen: SchülerInnen'
 - name: gymnasien_schulen
   type: int
-  description: 'Gymnasien: Schulen'
+  description: Gymnasien
+  unit: Anzahl Schulen
+  export_id: 'Gymnasien: Schulen'
 - name: gymnasien
   type: int
-  description: 'Gymnasien: SchülerInnen'
+  description: Gymnasien
+  unit: Anzahl SchülerInnen
+  export_id: 'Gymnasien: SchülerInnen'
 - name: sonderpaedagogisch_schulen
   type: int
-  description: 'Sonderpädagogische Bildungs- und Beratungszentren: Schulen'
+  description: Sonderpädagogische Bildungs- und Beratungszentren
+  unit: Anzahl Schulen
+  export_id: 'Sonderpädagogische Bildungs- und Beratungszentren: Schulen'
 - name: sonderpaedagogisch
   type: int
-  description: 'Sonderpädagogische Bildungs- und Beratungszentren: SchülerInnen'
+  description: Sonderpädagogische Bildungs- und Beratungszentren
+  unit: Anzahl SchülerInnen
+  export_id: 'Sonderpädagogische Bildungs- und Beratungszentren: SchülerInnen'
 - name: insgesamt_schulen
   type: int
-  description: 'insgesamt: Schulen'
-  computed: self.grund_schulen + self.hauptwerkreal_schulen + self.real_schulen + self.gemeinschaft_schulen + self.gymnasien_schulen + self.sonderpaedagogisch_schulen
+  description: Insgesamt
+  unit: Anzahl Schulen
+  computed: grund_schulen + hauptwerkreal_schulen + real_schulen + gemeinschaft_schulen + gymnasien_schulen + sonderpaedagogisch_schulen
 - name: insgesamt
   type: int
-  description: 'insgesamt: SchülerInnen'
-  computed: self.grund + self.hauptwerkreal + self.real + self.gemeinschaft + self.gymnasien + self.sonderpaedagogisch
+  description: Insgesamt
+  unit: Anzahl SchülerInnen
+  computed: grund + hauptwerkreal + real + gemeinschaft + gymnasien + sonderpaedagogisch
 ---
-Anmerkungen: Die Stadt Konstanz als Schulträger ist für die Errichtung, Unterhaltung und Verwaltung der allgemeinbildenden städtischen Schule verantwortlich. Die SchülerInnen kommen im Wesentlichen aus der Stadt Konstanz. Nur ein geringer Anteil (ca 12%) kommt von außerhalb.
+Anmerkungen: Die Stadt Konstanz als Schulträger ist für die Errichtung, Unterhaltung und Verwaltung der allgemeinbildenden städtischen Schule verantwortlich.

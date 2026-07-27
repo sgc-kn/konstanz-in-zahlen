@@ -5,17 +5,23 @@ columns:
 - name: jahr
   type: int
   description: Jahr
-- name: kn
+  unit: Quote (%)
+  short: Durchschnittliche Arbeitslosenquote der Stadt Konstanz seit 2005
+  export_id: Jahr
+- name: konstanz
   type: float
   description: Stadt Konstanz
-  unit: Prozent
-- name: bw
+  unit: Quote (%)
+  export_id: Stadt Konstanz
+- name: baden_wuerttemberg
   type: float
   description: Land Baden-Württemberg
-  unit: Prozent
-- name: de
+  unit: Quote (%)
+  export_id: Land Baden-Württemberg
+- name: deutschland
   type: float
   description: Bundesrepublik Deutschland
-  unit: Prozent
+  unit: Quote (%)
+  export_id: Bundesrepublik Deutschland
 ---
-Anmerkung: Die Arbeitslosenquote stellt den Anteil der Arbeitslosen an der Gesamtzahl der zivilen Erwerbspersonen dar. Sie wird von der Bundesagentur für Arbeit ermittelt (BA). Hier wird er Jahresdurchschnitt der Arbeitslosenquote dargestellt.
+Anmerkungen: Die Arbeitslosenquote stellt den Anteil der Arbeitslosen an der Gesamtzahl der zivilen Erwerbspersonen dar. Sie wird von der Bundesagentur für Arbeit ermittelt (BA). Hier wird der Jahresdurchschnitt der Arbeitslosenquote dargestellt.

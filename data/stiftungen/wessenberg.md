@@ -1,15 +1,17 @@
 ---
-title: Wessenbergsche Vermächtnisstiftung Wirtschaftsplan (in Mio.€)
+title: Wessenbergsche Vermächtnisstiftung Wirtschaftsplan
 source: Stadt Konstanz, Kämmerei
 columns:
 - name: jahr
   type: str
-  description: Jahr der Erhebung
-  short: Jahr
+  description: Jahr
+  short: xxx
+  export_id: Jahr der Erhebung
 - name: aufwendungen
   type: float
-  description: Ordentliche Aufwendungen im Ergebnishaushalt
+  description: Wirtschaftspläne der Wessenbergschen Vermächtnisstiftung seit 2010
   unit: Mio. €
-  short: ordentliche Aufwendungen im Ergebnishaushalt
+  short: Ordentliche Aufwendungen im Ergebnishaushalt der Wessenbergschen Verdächtnisstiftung seit 2010
+  export_id: Ordentliche Aufwendungen im Ergebnishaushalt
 ---
-Anmerkung: Die von Wessenberg’sche Vermächtnisstiftung ist eine stadtnahe Stiftung, deren Zweck ist es besonders erziehungsbedürftigen Kindern und Jugendlichen familienunterstützende und familienergänzende Hilfen zu gewähren.
+Anmerkungen: Die von Wessenberg’sche Vermächtnisstiftung ist eine stadtnahe Stiftung, deren Zweck ist es besonders erziehungsbedürftigen Kindern und Jugendlichen familienunterstützende und familienergänzende Hilfen zu gewähren. Weiter Informationen finden Sie unter: https://www.wessenbergstiftung-konstanz.de/ . Grundlage für die Daten ist der Wirtschaftsplan des jeweiligen Jahres.

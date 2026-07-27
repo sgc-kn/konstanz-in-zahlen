@@ -5,26 +5,33 @@ columns:
 - name: jahr
   type: int
   description: Jahr
+  short: Beförderungen der Fährschiffe der Stadtwerke Konstanz seit 2000
+  export_id: Jahr
 - name: schiffe
   type: Optional[int]
-  description: Fährschiffe
+  description: Anzahl der Fährschiffe seit 2000
+  unit: Anzahl Fährschiffe
+  export_id: Fährschiffe
 - name: personen
   type: Optional[float]
-  description: beförderte Personen
-  unit: Mio.
-  short: beförderte Personen (in Mio.)
+  description: Beförderte Personen
+  unit: Anzahl (Mio.)
+  short: Personen (in Mio.)
+  export_id: beförderte Personen
 - name: fahrzeuge
   type: Optional[float]
-  description: beförderte PKW und Nutzfahrzeuge
-  unit: Mio.
-  short: beförderte Pkw und Nutzfahrzeuge (in Mio.)
+  description: Beförderte PKW und Nutzfahrzeuge
+  unit: Anzahl (Mio.)
+  short: Pkw und Nutzfahrzeuge (in Mio.)
+  export_id: beförderte PKW und Nutzfahrzeuge
 - name: zweirad
   type: Optional[float]
   description: Motor- und Fahrräder
-  unit: Mio.
+  unit: Anzahl (Mio.)
   short: Motor- und Fahrräder (in Mio.)
+  export_id: Motor- und Fahrräder
 ---
-Anmerkungen:
+Anmerkungen: Weitere Informationen finden Sie unter: https://www.stadtwerke-konstanz.de/faehre/infos/ .
 
 - 2001, 2002: 1 Reserveschiff
-- 2012: Änderung der statistischen Auswertung im Juni 2008
+- Ab Juni 2008 Methodenwechsel bei statistischer Erfassung

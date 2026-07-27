@@ -1,13 +1,17 @@
 ---
-title: Allensbach University (Fernuniversität)
+title: Allensbach Hochschule (Fernhochschule)
 source: Allensbach Hochschule
 columns:
 - name: jahr
   type: int
-  description: Jahr der Erhebung
-  short: Jahr
+  description: Jahr
+  unit: Anzahl Studierende
+  short: xxx
+  export_id: Jahr der Erhebung
 - name: studierende
   type: int
-  description: Studierende
+  description: Studierendenzahlen der Allensbach Hochschule seit 2015
+  unit: Anzahl Studierende
+  export_id: Studierende
 ---
-Anmerkungen: Die Allensbach Hochschule ist eine staatlich anerkannte Hochschule des Bundeslandes Baden-Württemberg und bietet verschiedene berufsbegleitende Bachelor- und Masterprogramme im Bereich der Wirtschaftswissenschaften an.
+Anmerkungen: Die Allensbach Hochschule (Fernhochschule) ist eine staatlich anerkannte Hochschule des Bundeslandes Baden-Württemberg und bietet verschiedene berufsbegleitende Bachelor- und Masterprogramme im Bereich der Wirtschaftswissenschaften an.

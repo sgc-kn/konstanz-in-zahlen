@@ -5,27 +5,43 @@ columns:
 - name: jahr
   type: int
   description: Jahr (Stichtag 30. Juni)
-  short: Jahr
+  unit: Anzahl Personen
+  short: Arbeitslose der Stadt Konstanz seit 2000
+  export_id: Jahr (Stichtag 30. Juni)
 - name: insgesamt
   type: int
   description: insgesamt
-- name: m
+  unit: Anzahl Personen
+  export_id: insgesamt
+- name: maenner
   type: int
   description: Männer
-- name: w
+  unit: Anzahl Personen
+  export_id: Männer
+- name: frauen
   type: int
   description: Frauen
-- name: de
+  unit: Anzahl Personen
+  export_id: Frauen
+- name: deutsch
   type: int
   description: Deutsche
-- name: nde
+  unit: Anzahl Personen
+  export_id: Deutsche
+- name: nichtdeutsch
   type: int
   description: Nichtdeutsche
+  unit: Anzahl Personen
+  export_id: Nichtdeutsche
 - name: unter25
   type: Optional[int]
   description: unter 25 Jahre
+  unit: Anzahl Personen
+  export_id: unter 25 Jahre
 - name: ueber55
   type: int
   description: 55 Jahre und älter
+  unit: Anzahl Personen
+  export_id: 55 Jahre und älter
 ---
-Anmerkung: Arbeitslose am Wohnort Konstanz am 30.06. des Jahres.
+Anmerkungen: Arbeitslose am Wohnort Konstanz am 30.06. des Jahres.
