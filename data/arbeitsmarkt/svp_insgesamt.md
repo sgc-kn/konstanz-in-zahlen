@@ -5,7 +5,7 @@ columns:
 - name: jahr
   type: int
   description: Jahr (Stichtag 30. Juni)
-  short: Sozialversicherungspflichtig Beschäftigte nach Wirtschaftsbereich und Arbeitsort seit 2000
+  short: Sozialvers.-pflichtig Beschäftigte nach Wirtschaftsbereich und Arbeitsort seit 2000
   export_id: Jahr (Stichtag 30. Juni)
 - name: wohnort
   type: int
