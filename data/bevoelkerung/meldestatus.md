@@ -6,7 +6,7 @@ columns:
 - name: jahr
   type: int
   description: Jahr
-  short: Bevölkerung nach Meldestatus der Stadt Konstanz seit 1995
+  short: Bevölkerung der Stadt Konstanz nach Meldestatus seit 1995
   export_id: Jahr
 - name: wohnbevoelkerung_hauptwohnsitz
   type: int

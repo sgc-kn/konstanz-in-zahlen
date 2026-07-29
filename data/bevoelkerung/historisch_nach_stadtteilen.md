@@ -1,5 +1,5 @@
 ---
-title: Historische Wohnbevölkerung nach Stadtteilen
+title: Historische Wohnbevölkerung nach Stadtteil
 source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortschreibung)
 order: 8
 columns:

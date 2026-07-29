@@ -1,5 +1,5 @@
 ---
-title: Sozialvers.-pflichtig Beschäftigte (jeweils Juni)
+title: Sozialversicherungspflichtig Beschäftigte (jeweils Juni)
 source: Bundesagentur für Arbeit (BA)
 columns:
 - name: jahr

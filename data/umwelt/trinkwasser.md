@@ -16,7 +16,7 @@ columns:
   export_id: Wasserentnahme Bodensee
 - name: verbrauch
   type: Optional[float]
-  description: Durchschnittl. Trinkwasserverbrauch pro Einwohner seit 2000
+  description: Durchschnittlicher Trinkwasserverbrauch pro Einwohner seit 2000
   unit: l pro Tag
   short: Durchschnittl. Verbrauch pro Einw. (in Liter pro Tag)
   export_id: Durchschnittl. Verbrauch pro Einwohner

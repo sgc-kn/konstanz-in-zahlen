@@ -1,5 +1,5 @@
 ---
-title: Wohnbevölkerung nach Stadtteilen
+title: Wohnbevölkerung nach Stadtteil
 source: Stadt Konstanz, Amt für Digitalisierung und IT (eigene Einwohnerfortschreibung)
 order: 7
 columns:
