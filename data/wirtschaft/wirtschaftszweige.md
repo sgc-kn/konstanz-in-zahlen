@@ -26,7 +26,7 @@ columns:
   export_id: Verarbeitendes Gewerbe
 - name: energie_und_wasserversorgung_abwasser_und_abfallentsorg_u_beseitigung_v_umweltverschm
   type: int
-  description: Energie- & Wasserversorgung; Abwasser- und Abfallentsorg. u. Beseitigung v. Umweltverschm.
+  description: Energie- & Wasserversorgung; Abwasser- und Abfallentsorg.
   unit: Anzahl Betriebe/Niederlassungen
   export_id: Energie- & Wasserversorgung; Abwasser- und Abfallentsorg. u. Beseitigung v. Umweltverschm.
 - name: handel_und_instandhaltung_und_reparatur_von_kraftfahrzeugen
